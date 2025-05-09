@@ -1,0 +1,1037 @@
+Keyword,Description
+FLUXOPTS,Options for Flux Boundary models.
+FMTHMD,Indicates that the HMD file is to be formatted.
+FMTIN,Indicates that the input files are formatted.
+FMTOUT,Indicates that the output files are to be formatted.
+FULLIMP,Use the Fully Implicit Solution option.
+GAS,The run contains gas.
+GDIMS,Specify the dimensions for the instantaneous gradient option.
+GRAVDR,Use gravity drainage in dual porosity runs.
+GRAVDRB,Use the Vertically Discretized Gravity Drainage Model in dual porosity runs.
+GRAVDRM,Use the Alternative Gravity Drainage Model in dual porosity runs.
+GRIDOPTS,Set options to process grid data.
+HMDIMS,Set dimensions for the Gradient option.
+IMPES,Use the IMPES Solution option.
+INSPEC,Request an Initial Index file.
+LAB,Use Lab unit convention.
+LGRCOPY,Copy global values to local cells before operations on cells within an LGR. This will apply to all LGRs in the dataset.
+MEMORY,Allocate the required memory at start of run.
+METRIC,Use metric unit convention.
+MISCIBLE,"Enable the Miscible Gas Flood option (ECLIPSE 100)
+Allow properties to depend on surface tension (ECLIPSE 300)."
+MONITOR,Request output for run-time monitoring.
+MSGFILE,Message file output options.
+MULTIN,Indicates that input files are multiple.
+MULTOUT,Indicates that output files are multiple.
+MULTOUTS,Indicates that Summary files are multiple.
+MULTREAL,Activates Multi-Realization licensing.
+NETWORK,Set dimensions for Extended Network Model.
+NINEPOINT,Select the Nine-point option.
+NMATRIX,Use the discretized Matrix Dual-porosity Model.
+NOHYST,Disable Hysteresis option.
+NOINSPEC,Do not write an Initial Index file.
+NOMONITO,Disable the output for run-time monitoring.
+NONNC,Disallow non-neighbor connections.
+NORSSPEC,Do not write a Restart Index file.
+NOSIM,"Turn off simulation, but continue data checking."
+NSTACK,Set linear solver stack size.
+NUMRES,The grid contains multiple reservoirs.
+NUPCOL,Number of timestep iterations in which well targets are updated.
+OIL,The run contains oil.
+PARALLEL,Select a parallel run.
+PETOPTS,Sets options for simulator runs fired from Petrel.
+RADIAL,Specify radial geometry.
+REGDIMS,Set dimensions for regions data.
+ROCKCOMP,Enable the rock compaction option.
+RSSPEC,Request a Restart Index file.
+SATOPTS,Set options for directional and hysteretic relative permeabilities.
+SOLID,Indicates a solid phase in the run.
+START,Specify the start date.
+TABDIMS,Set table dimensions.
+TITLE,Specify the run title.
+UDADIMS,Dimensions for the user defined arguments facility.
+UDQDIMS,Dimensions for the user defined quantity facility.
+UDQPARAM,Parameters for the user defined quantity facility.
+UNCODHMD,Enables unencoded sensitivities from the Gradient option.
+UNIFIN,Indicates that input files are unified.
+UNIFOUT,Indicates that output files are unified.
+UNIFOUTS,Indicates that Summary files are unified.
+VFEPDIMS,Set dimensions for injection well VFP tables.
+VFEPPDIMS,Set dimensions for production well VFP tables.
+VISAGE,Activate the VISAGE geomechanics workflow.
+WARP,Enable WARP linear solver.
+WATER,The run contains water.
+WCOMPRES,"Reduce the memory requirements of a simulation that contains a large number of wells, some of which have many connections, but most have relatively few connections."
+WELLDIMS,Set dimensions for well data.
+WSEGDIMS,Set dimensions for multisegment wells.
+WSEGSOLV,Sets parameters for the multisegment well iterative linear solver.
+API,Enable the API Tracking option.
+ALKALINE,Enable the Alkaline model.
+AUTOREF,Set options for auto refinement.
+BIGMODEL,Allows large models to run by changing the internal memory accounting.
+DISGAS,Run contains dissolved gas in live oil.
+DISPDIMS,Dimensions dispersion tables.
+ECLMC,Enable the Multi-Component option.
+EQLDIMS,Set dimensions of equilibration tables.
+EQLOPTS,Set options for equilibration.
+FAULTDIM,Set dimensions for fault data.
+FOAM,Enable the Foam option.
+FRICTION,Enable the Wellbore Friction option.
+GASFIELD,Enable special options in the Gas Field Operations Model.
+GIMODEL,Enable the GI Pseudo-compositional option.
+LGR,Set options for local grid refinement and coarsening.
+LICENSES,Reserve ECLIPSE 100 option licenses.
+LOWSALT,Enable the Low-Salinity option.
+NNEWWTF,Enable the non-Newtonian modeling for polymer.
+NOCASC,Use the linear solver tracer algorithm to solve single phase tracers.
+NRSOUT,Sets the maximum number of quantities that can be output to a restart file.
+NRSOPTIONS,Activate special options within particular facilities in ECLIPSE 100.
+PARTTRAC,Activate partitioned tracers for Environmental Tracers or the Surfactant option.
+PATHS,Set pathname aliases.
+PEDIMS,Used to set dimensions for a Petro-elastic Model.
+PIMTDIMS,Set PI scaling table dimensions.
+POLYMER,Enable the Polymer Flood Model.
+PSTEADY,Automatically runs the simulator to a steady state.
+RIVRDIMS,Set river dimensions.
+RPTHMD,Specify controls on the output to the HMD file.
+RPTRUNSP,Specify controls on the output of RUNSPEC data.
+SAMG,Enable algebraic multigrid linear solver. Note that in ECLIPSE 100 its use is restricted to single phase tracers and requires a Water Services license.
+SAVE,Request the output of a Save file for fast restarts.
+SCDPDIMS,Set dimensions for scale deposition tables.
+AIM,Use the AIM Solution option.
+AJGRADNT,Use the adjoint gradient screening option.
+AQUDIMS,Dimensions for aquifers.
+CBMOPTS,Specify the type of adsorption model to be used with the Coal Bed Methane option.
+CO2SOL,Allow CO? to dissolve in the aqueous phase.
+CO2STORE,Activates the CO? storage option.
+COMPS,Requests compositional mode.
+COMPSOL,"For SOLID, BLACKOIL runs, this keyword must be used to set the number of components."
+COMPW,Requests water component model.
+DEADOIL,Use the Dead Oil option in thermal simulations.
+DOMAIN,Set non-default domain size for phase property evaluation.
+DPCDT,Set maximum rate of change of capillary pressure.
+E100NOSI,Switch to NOSIM mode if an incompatible ECLIPSE 100 keyword is read.
+EOS,Specify which equation of state is to be used.
+EOSS,Specify the surface equation of state.
+FASTTRAC,Enables shortcuts in tracer calculations.
+FMTSAVE,Indicates that the Save files are formatted.
+FORMOPTS,Formulation options.
+FREEZEPC,Freeze all capillary pressures in the run.
+FWELLS,Enable the Fractured Well Completion option.
+GASSOL,Use the GASSOL option.
+GASWAT,Use the water-gas model.
+GEOMECH,Selects the geomechanics option.
+GEODIMS,"Sets the number of geomechanics regions in the simulation, sets table dimensions, in terms of the number of rows and columns, for the PERMSTAB and BIOTCTAB keywords."
+GPTDIMS,Set gas plant table dimensions.
+H2SOL,Allow H2S to dissolve in the aqueous phase.
+HEATDIMS,Set heater keyword dimensions in thermal simulations.
+HWELLS,Enable the Horizontal Well Completion option.
+HYKR,Enable the Relative Permeability Hysteresis option.
+HYPC,Enable the Capillary Pressure Hysteresis option.
+HYST,Enable the Hysteresis option.
+HYSTJ,Enable the Hysteresis option using the Jargon method.
+HYSTK,Enable the Hysteresis option using the Killough method.
+IMPSAT,Use the IMPSAT Solution option.
+ISGAS,The run is gas condensate.
+JALS,Activate the JALS linear solver.
+KVALUES,Use K-values in the simulation.
+LAGTRAC,Activates the Lagrangian Tracer Solver option.
+LIVEOIL,Use the live oil option in thermal simulations.
+LUMPDIMS,"Turns on, and dimensions, the LUMPING option."
+MULTSAVE,Indicates that Save files are multiple.
+MULTIPHA,Allows multi-phase flash for asphaltene prediction.
+MEMSAVE,Allow use of Up Front Memory option.
+NINEXZ,Select the Nine-point option in the XZ plane.
+NINEYZ,Select the Nine-point option in the YZ plane.
+NOAIMLGR,Suppress making all refinement cells implicit in AIM runs.
+NODPCO,No dual porosity condensation.
+NODPCDT,Disable the DPCDT option.
+NODPPM,No dual porosity permeability multiplier.
+NOFREEZE,Suppress use of the FREEZEPC option.
+NOHYKR,Do not apply hysteresis to relative permeabilities.
+NOHYPC,Do not apply hysteresis to capillary pressure.
+NOMIX,Do not interpolate between oil and gas relative permeabilities near the critical point.
+NPROCX,Set number of processors in the x-direction for a parallel run.
+NPROCY,Set number of processors in the y-direction for a parallel run.
+OPTIONS3,Activate special options within particular facilities in ECLIPSE 300.
+PDIVX,Select a division of the x-direction for parallel runs.
+PDIVY,Select a division of the y-direction for parallel runs.
+RESOPT,Activates the Reservoir Optimization license key.
+PSPLITX,Specify multiple domain decomposition in the X-direction.
+PSPLITY,Specify multiple domain decomposition in the Y-direction.
+PSSAT,"Use saturation pressure to assign states, instead of Li correlation."
+PVT-M,Use PVT-metric unit convention.
+REACTION,Define the number of chemical reactions.
+ROCKDIMS,Set dimensions for rock over and underburden data in thermal simulations.
+RSM,Output extra data to the RSM file.
+SCFDIMS,Set dimensions for conductive fractures.
+SECTOR,Define a sector model.
+SECTBC,Specify boundary conditions for sector model.
+SKIPSTAB,Speeds up flash calculations by skipping some one-phase stability calculations.
+SOLVDIMS,Specifies the solver dimensions for an unstructured grid.
+TRACK,Enable the Tracking option.
+TCBDIMS,Set temperature cutback table dimensions in thermal simulations.
+THERMAL,Enable the Thermal option.
+TRCOEF,Enable transport coefficients to be used.
+TRPLPORO,Grid for triple porosity.
+UNIFSAVE,Indicates that Save files are unified.
+VECTABLE,Set the size of the vector property table.
+VELDEP,Settings for velocity dependent relative permeability.
+WAGHALT,Selects the alternative WAG hysteresis model.
+COARSEN,Generates non-neighbor connections generated from using the grid coarsening option.
+CIRCLE,May be used in radial studies with more than two cells in the direction to represent flow across the 360 degree to 0 degree boundary.
+NOCIRCLE,May be used in local radial grid refinement runs to complete the circle.
+NNC,May be used to enter a non-neighbor transmissibility between any two cells in the reservoir. In ECLIPSE 300 this is further enhanced with the NNCGEN keyword.
+SIGMA,May be used to specify a coupling parameter for NNCs set up in Dual Porosity runs. The use of this is discussed in 'Dual Porosity' in the ECLIPSE Technical Description.
+SIGMAGD,"May be used to specify a different coupling parameter for gravity drainage. By default, the SIGMA values are used."
+PINCH,Specifies how missing zero thickness layers are to be treated. NNCs may be generated across the absent layer.
+AQUCON,Connects a numerical aquifer to the reservoir using NNCs.
+DX,X-direction grid block sizes for the current input box (or use DXV).
+DXV,Vector of X-direction grid block sizes or use DX. Simplified version of DX.
+DY,Y-direction grid block sizes for the current input box (or use DYV).
+DYV,Vector of Y-direction grid block sizes or use DY. Simplified version of DY.
+INRAD,Sets inner radius of radial grid.
+DR,R-direction grid block sizes for the current input box (or use DRV or OUTRAD).
+DRV,Vector of R-direction grid block sizes (or use DR or OUTRAD). Simplified version of DR.
+OUTRAD,Sets outer radius of radial grid (or use DR or DRV).
+DTHETA,Theta-direction grid block sizes for the current input box (or use DTHETAV).
+DTHETAV,Vector of Theta-direction grid block sizes (or use DTHETA). Simplified version of DTHETA.
+COORD,"Defines the lines that contain all grid block corner points for each (I, J) and for each reservoir in the grid."
+ZCORN,Point depths of grid block corners.
+GDFILE,Inputs corner point positions for each cell from a GRID file as an alternative to COORD and ZCORN.
+ADDZCORN,Adds a constant value to cell corner point depths.
+EQLZCORN,Resets part of the corner point depth array within a specified box.
+COORDSYS,Information about the coordinate system for each reservoir in the grid. Specifies completion of the circle in both corner point and block-centered geometries.
+RESVNUM,Initiates COORD data input for a given reservoir in the grid.
+MAPAXES,"Inputs map origin from a grid pre-processor, for output to the GRID file."
+MAPUNITS,Specifies the units used for MAPAXES data for output to the GRID file.
+GRIDUNIT,Specifies the grid data units that can be output by grid pre-processors or by ECLIPSE simulators writing the grid geometry files.
+PORO,Grid block porosities for the current input box. Must be set in some way.
+DZNET,Grid block net thicknesses (or use NTG).
+NTG,Grid block net-to-gross ratios for current input box (or use DZNET).
+ACTNUM,Identifies active grid blocks.
+MIDS,Specifies cell mid-point depths.
+MINPV,Minimum pore volume that each grid block must have to be active (scalar).
+MINPVV,Minimum pore volumes that grid blocks in the current BOX must have to be active (vector).
+MULTPV,Pore volume multipliers for the current input box.
+PERMR,R-direction permeabilities for the current input box.
+PERMTHT,Theta-direction permeabilities for the current input box.
+PERMX,X-direction permeabilities for the current input box.
+PERMY,Y-direction permeabilities for the current input box.
+PERMZ,Z-direction permeabilities for the current input box.
+JFUNC,Activates Leverett J-Function option to scale capillary pressure according to rock porosity and permeability.
+JFUNCR,Activates Leverett J-Function option to scale capillary pressure according to rock porosity and permeability on a per saturation region basis. Each set of saturation function tables may be specified to use either capillary pressures values obtained from direct table look-up or via the Leverett J-Function calculation.
+NEWTRAN,Specifies that corner point data should be used to compute transmissibilities.
+OLDTRAN,Specifies that block center data should be used to compute transmissibilities.
+OLDTRANR,Alternative calculation of transmissibilities using block characteristics.
+PINCHNUM,Identifies pinchout regions for use by PINCHREG.
+PINCHREG,Specifies pinchout data within PINCHNUM regions.
+COLUMNS,Reset left and right margins for reading data input file.
+DEBUG,Set debug output control switches.
+DEBUG3,Set debug output control switches.
+ECHO,Switch on the echo of the data printed at the start of each run.
+END,Terminate reading the data.
+ENDINC,Terminate reading the Include file and return to the main data file.
+ENDSKIP,"Terminates skipping of keywords (SKIP, SKIP100, SKIP300)."
+EXTRAPMS,Request warning messages for PVT and VFP table extrapolation.
+FORMFEED,Sets the formfeed character in the Print file.
+GETDATA,"Imports named array data from previous Initial or Restart files. (GRID, EDIT, PROPS, REGIONS and SOLUTION sections.)"
+INCLUDE,Insert the contents of a specified file.
+MESSAGES,Reset print and stop limits for messages of all severity types.
+NOECHO,Switch off the echo of the data printed at the start of each run.
+NOWARN,Suppress warning messages.
+SKIP,Skips the following keywords until ENDSKIP is read.
+SKIP100,Instructs ECLIPSE 100 to skip the following keywords until ENDSKIP is read; it is ignored in ECLIPSE 300.
+SKIP300,Instructs ECLIPSE 300 to skip the following keywords until ENDSKIP is read; it is ignored in ECLIPSE 100.
+WARN,Reactivate warning messages after suppression by NOWARN in ECLIPSE 100 only.
+FAULTS,Identifies fault trajectories for subsequent use by the MULTFLT keyword.
+MULTFLT,Multipliers for the transmissibility and diffusivity across faults defined by the FAULTS keyword.
+THPRESFT,Threshold pressures associated with faults defined by the FAULTS keyword.
+AQUANCON,Defines connection data for analytic aquifer.
+BTOBALFA,Switch on Z-direction block to block matrix-fracture coupling and supply single-value transmissibility connection fraction multiplier.
+BTOBALFV,Switch on Z-direction block to block matrix-fracture coupling and supply multiple-value transmissibility connection fraction multipliers.
+DIFFMMF,Diffusivity multipliers for matrix-fracture coupling.
+DPGRID,Enables user to enter grid data for matrix cells only.
+DPNUM,Identifies the extent of the regions in which the single porosity model may be applied in a dual porosity run.
+DZMTRX,"The vertical dimension of a typical block of matrix material, for the entire grid."
+DZMTRXV,"The vertical dimension of a typical block of matrix material, for the current box."
+NMATOPTS,Controls the Discretized Matrix Dual Porosity option.
+NODPPM,Specifies that permeabilities in the fracture cells are not to be multiplied by the fracture porosity.
+SIGMA,Matrix-to-fracture coupling factor for the entire grid.
+SIGMAV,Matrix-to-fracture coupling factor for the current box.
+SIGMAGD,"Matrix-to-fracture coupling for oil-gas gravity drainage, for the entire grid."
+SIGMAGDV,"Matrix-to-fracture coupling for oil-gas gravity drainage, for the current box."
+LTOSIGMA,"Provides an easy way to calculate SIGMA from LX, LY, LZ."
+"LX, LY, LZ",Inputs the representative matrix block sizes for the viscous displacement option.
+MULTMF,Transmissibility multipliers for matrix-fracture coupling.
+PERMMF,Permeability for matrix-fracture coupling.
+COLLAPSE,Specifies which cells should be collapsed.
+CRITPERM,Sets a critical permeability to determine which cells are collapsed.
+VEDEBUG,Controls debug output for VE options.
+DIFFMR,R-direction diffusivity multipliers for the current input box.
+DIFFMR-,Negative R-direction diffusivity multipliers for the current input box.
+DIFFMTH,Theta-direction diffusivity multipliers for the current input box.
+DIFFMTH-,Negative Theta-direction diffusivity multipliers for the current input box.
+DIFFMX,X-direction diffusivity multipliers for the current input box.
+DIFFMX-,Negative X-direction diffusivity multipliers for the current input box.
+DIFFMY,Y-direction diffusivity multipliers for the current input box.
+DIFFMY-,Negative Y-direction diffusivity multipliers for the current input box.
+DIFFMZ,Z-direction diffusivity multipliers for the current input box.
+DIFFMZ-,Negative Z-direction diffusivity multipliers for the current input box.
+DIFFMMF,Matrix-fracture diffusivity multipliers for the current input box.
+MULTFLT,Multipliers for the transmissibility and diffusivity across faults defined by the keyword.
+MULTREGD,Multipliers for the diffusivity between regions defined with FLUXNUM or MULTNUM.
+MULTNUM,"Identifies regions for use with MULTREGT, MULTREGD and MULTREGH."
+MULTREGH,Multipliers for the thermal conductivity between regions defined with FLUXNUM or MULTNUM.
+THCONR,Rock thermal conductivities for the current input box.
+NINENUM,Specifies the extent of the nine-point discretization scheme.
+MINPORV9,Set a minimum pore volume for calculation of nine-point transmissibilities.
+ORTHERRO,Set a minimum orthogonality error for calculation of nine-point transmissibilities.
+ORTHERRX,Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the X-direction.
+ORTHERRY,Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Y-direction.
+ORTHERRZ,Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Z-direction.
+ADD,Adds specified constants to specified arrays in the current input box.
+ADDREG,"Adds specified constants to specified arrays in a given flux, MULTNUM or OPERNUM region."
+BOUNDARY,Defines the section of the grid for which output maps are required.
+BOX,Redefines the current input box.
+COPY,Copies data in the current box from one specified array to another.
+COPYBOX,Copies data from one box of cells to another box of the same size.
+COPYREG,"Copy by FLUXNUM region, MULTNUM region or OPERNUM region."
+DUMPFLUX,Output a Flux file.
+ENDBOX,Redefines the current input box to encompass the whole grid.
+EQUALS,Sets specified arrays to specified constants within the current box.
+EQUALREG,"Sets specified arrays to specified constants in a given flux, MULTNUM or OPERNUM region."
+FLUXNUM,"Defines flux regions, for editing data with ADDREG, EQUALREG, MULTIREG and COPYREG, and for inter-region multipliers MULTREGT, MULTREGD and MULTREGH."
+FLUXREG,Select which flux regions are active in a run.
+GRIDFILE,Controls the contents of the Grid Geometry file (for graphical output).
+IMPORT,Imports binary data generated by a grid pre-processor.
+INIT,Produces initial file for GRAF.
+LGRCOPY,Copy global values to local cells before operations on cells within an LGR.
+MAXVALUE,Applies a maximum value to specified arrays within the current box.
+MINNNCT,Sets a cut-off transmissibility below which an NNC is deleted.
+MINVALUE,Applies a minimum value to specified arrays within the current box.
+MULTIPLY,Multiply specified arrays by specified constants within the current box.
+MULTIREG,"Multiply specified arrays by specified constants in a given flux, MULTNUM or OPERNUM region."
+NOGGF,Specifies that no Grid Geometry file is to be produced (for graphical output).
+OPERATE,Performs arithmetic operations on arrays.
+OPERATER,Performs arithmetic operations on arrays for a specific region of the grid.
+OPERNUM,"Defines region on which to perform operations using the OPERATER keyword. The data can also be edited using ADDREG, EQUALREG, MULTIREG and COPYREG."
+RPTGRID,Sets report levels for GRID data.
+RPTINIT,Controls output to the Initialization file for GRID and EDIT data.
+SOLVDIRS,Overrides default settings for principal directions in the linear solver.
+SPECGRID,Specification of grid dimensions.
+TOPS,Specifies the depths of the top face of each grid cell.
+USEFLUX,Use a Flux file.
+CIRCLE,Requests completion of the circle.
+MAXTRANZ,Maximum Z-direction transmissibility.
+MIDS,Specify cell mid-point depths.
+MINDZNET,Minimum net thickness for active cell.
+XSTC,Specifies oil composition at standard conditions for the Flux option.
+YSTC,Specifies gas composition at standard conditions for the Flux option.
+NYFIN,Number of local cells in each global cell of an LGR in the Y-direction.
+NZFIN,Number of local cells in each global cell of an LGR in the Z-direction.
+RADFIN,Specifies a single-column radial local grid refinement.
+REFINE,Initiates data input for a named local grid.
+RPTGRIDL,Controls output of GRID section data for local grids.
+AMALGAM,Allow local grids to amalgamate.
+AUTOCOAR,Specifies a box of cells for coarsening within an auto refinement.
+QMOBIL,Controls the mobile end-point correction in an LGR.
+RADFIN4,Specifies a four-column radial local grid refinement.
+"SMULIX, SMULIY, SMULIZ",Alternative transmissibility multipliers for auto refinement.
+VEFIN,Controls Vertical Equilibrium in local grids.
+AQUCON,Defines a connection between a numerical aquifer and the reservoir.
+AQUCT,Specifies property data for Carter-Tracy aquifer.
+AQUNUM,Defines a numerical aquifer.
+GADJUST,Adjusts diagonal permeability tensor.
+MPFA,Sets options for tensor permeability.
+PERMXX,X-direction tensor permeability coefficient for the current input box.
+PERMYY,Y-direction tensor permeability coefficient for the current input box.
+PERMZZ,Z-direction tensor permeability coefficient for the current input box.
+PERMXY,XY-direction tensor permeability coefficient for the current input box.
+PERMYZ,YZ-direction tensor permeability coefficient for the current input box.
+PERMZX,ZX-direction tensor permeability coefficient for the current input box.
+TBASIS,Specify basis for tensor permeabilities.
+ACTNUM,Identifies active grid blocks.
+CARFIN,Defines a Cartesian local grid refinement.
+COALNUM,Specifies coal regions for the Coal bed Methane option.
+EXTFIN,Specifies an unstructured local grid refinement.
+EXTHOST,Specifies the global host cells of an unstructured local grid refinement.
+EXTREPGL,Specifies the replaced global cells for an unstructured local grid refinement.
+FILEUNIT,Confirms the units of the data set.
+FLUXREG,Select which flux regions are active in a run.
+GDORIENT,Indicates the orientation and handedness of the grid.
+HMMULTPV,Specifies pore volume multipliers (cumulative).
+HMMULTXX,Specify history matching multipliers on transmissibility and/or permeability.
+HRFIN,Local grid size ratios in the R-direction.
+HXFIN,Local grid size ratios in the X-direction.
+HYFIN,Local grid size ratios in the Y-direction.
+HZFIN,Local grid size ratios in the Z-direction.
+MPFANUM,Identifies regions in which to apply the multipoint discretization or nine point scheme.
+MPFNNC,Sets multi-point transmissibility coefficients.
+MULTREGP,Multiplies pore volumes between flux or multiplier regions.
+MULTREGT,Multiplies transmissibilities between flux or multiplier regions.
+MULTTHT,Theta-direction transmissibility multipliers for the current box.
+MULTTHT-,Negative R-direction transmissibility multipliers for the current box.
+MULTXY,X-direction transmissibility multipliers for the current box.
+MULTXY-,Negative X-direction transmissibility multipliers for the current box.
+MULTYY,Y-direction transmissibility multipliers for the current box.
+MULTYY-,Negative Y-direction transmissibility multipliers for the current box.
+MULTZZ,Z-direction transmissibility multipliers for the current box.
+MULTZZ-,Negative Z-direction transmissibility multipliers for the current box.
+PINCHOUT,"Same as keyword PINCH, but threshold thickness cannot be adjusted."
+PINCHXY,"Generates horizontal (I, J) pinchout connections."
+ROCKFRAC,Sets the rock volume fraction for each grid block.
+RPTINIT,Controls output to the Initialization file for GRID and EDIT data.
+SIGMAGDV,Matrix-fracture coupling for oil-gas gravity drainage (current box).
+SIGMAV,Matrix-to-fracture coupling factor for the current box.
+SOLVDIMS,Specifies the solver dimensions for an unstructured local grid refinement.
+SOLVDIRS,Overrides default settings for principal directions in the linear solver.
+SOLVNUM,Specifies the map from user numbers to solver numbers for an unstructured grid.
+THCONR,"Rock and fluid thermal conductivities for the current box, for the Temperature and Thermal options."
+THPRESET,Specifies a threshold pressure associated with a named fault.
+TRANGL,Specifies the global-local connections and associated transmissibilities for an unstructured local grid refinement.
+AQUUNC,Specifies numerical aquifer non-neighbor connection properties explicitly.
+HALFTRAN,Activates the half-block transmissibility upscaling option.
+HMAQUNUM,Activates the calculation of gradients for numerical aquifer parameters.
+HMMLAQUN,Specifies cumulative multipliers on numerical aquifer parameters.
+HMMRREGT,Specifies cumulative inter-region transmissibility multipliers.
+HMMLRGT,Activates the calculation of gradients with respect to inter-region transmissibility multipliers.
+IONROCK,Rock ion exchange capacity.
+ISOLNUM,Defines the extent of each independent reservoir region.
+LINKPERM,Treats grid block permeabilities as applying to cell faces.
+LTOSIGMA,"Provides an easy way to calculate SIGMA from LX, LY, LZ."
+"LX, LY, LZ",Inputs the representative matrix block sizes for the dual porosity viscous displacement option.
+MULTREGD,Multiplies diffusivities between flux or multiplier regions.
+MULTREGH,Multiplies thermal conductivity between flux or multiplier regions.
+NEWTRAN,Specifies that transmissibilities are to be computed using area of contact between blocks. Default for corner point geometry.
+PEBI,Specifies that an unstructured grid is being used.
+PERMAVE,Sets options for permeability averaging in transmissibilities.
+RPTISOL,"Generates data for the ISOLNUM keyword, output to the Debug file."
+VEDEBUG,Controls debug output from the Vertical Equilibrium options.
+AQUQCT,Specifies property data for Cater-Tracy aquifer.
+BIOTC,Sets the Biot constant for each grid block.
+COALNUMR,Redefine coal region numbers in connection with the multi-porosity option.
+CONDFLTS,Specifies geometry of conductive faults.
+CONDFRAC,Specifies geometry of a conductive fracture
+CRNDENS,Specifies rock density for each coal region number
+CRITPERM,Sets a critical permeability for cell collapse in Compressed VE
+DZV,Vector of Z-direction grid block sizes
+GADJUST,Adjusts diagonal permeability tensor
+GLTHEX,Sets a coefficient of linear thermal expansion for each grid block.
+HEATCR,Rock heat capacity
+HEATCRT,Temperature dependence of rock heat capacity
+MAXTRANZ,Maximum Z-direction transmissibility.
+MIDS,Specify cell mid-point depths.
+MINDZNET,Minimum net thickness for active cell.
+MINPORV9,Set a minimum pore volume for calculation of nine-point transmissibilities.
+MINROCKV,Sets a minimum rock volume that each cell must have to be active
+MPFA,Sets options for tensor permeability.
+MULTMF,Transmissibility multipliers for matrix-fracture coupling.
+NNCGEN,Allows NNCs to be generated between any two grid cells.
+NOCIRCLE,Turn off completion of circle for local grid refinements.
+ORTHERRO,Set a minimum orthogonality error for calculation of nine-point transmissibilities.
+ORTHERRX,Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the X-direction.
+ORTHERRY,Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Y-direction.
+ORTHERRZ,Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Z-direction.
+PERMMF,Permeability for matrix-fracture coupling.
+PERMXX,X-direction tensor permeability coefficient for the current input box.
+PERMYY,Y-direction tensor permeability coefficient for the current input box.
+PERMZZ,Z-direction tensor permeability coefficient for the current input box.
+PERMXY,XY-direction tensor permeability coefficient for the current input box.
+PERMYZ,YZ-direction tensor permeability coefficient for the current input box.
+PERMZX,ZX-direction tensor permeability coefficient for the current input box.
+POISSONR,Sets the Poisson ratio for each grid block.
+PROPFLOW,Defines parameters to be used with the proponent flowback feature.
+ROCKCON,Base and cap rock connections to the global grid
+ROCKCONL,Base and cap rock connections to the local grid refinements
+ROCKDEN,Sets the rock density for each grid block
+ROCKPROP,Base and cap rock properties
+SIGMATH,Matrix-fracture thermal conductivity multiplier
+TBASIS,Specify basis for tensor permeabilities
+THCGAS,Gas phase thermal conductivity
+THCOIL,Oil phase thermal conductivity
+THCONMF,Matrix-fracture conductivity
+THCONSF,Thermal conductivity saturation dependence
+THCROCK,Rock thermal conductivity
+THCSOLID,Solid phase thermal conductivity
+THCWATER,Water phase thermal conductivity
+THEFLXTF,Heat transmissibility factor for the flux boundary option.
+YOUNGMOD,Sets the elastic Young’s modulus for each grid block.
+XSTC,Specifies oil composition at standard conditions
+YSTC,Specifies gas composition at standard condition.
+ADD,Adds specified constants to specified arrays in the current input box.
+ADDREG,"Adds a constant to the specified array in a flux, MULTNUM or OPERNUM region."
+BOUNDARY,Defines the section of the grid for which output maps are required.
+BOX,Re-defines the current input box. COPY Copies data in the current box from one specified array to another.
+COPYREG,Copy by FLUXNUM region MULTNUM region or OPERNUM region.
+DEPTH,Grid block center depths for the current input box.
+DIFFR,R-direction diffusivities for the current input box
+DIFFTHT,Theta-direction diffusivities for the current input box
+DIFFX,X-direction diffusivities for the current input box
+DIFFY,Y-direction diffusivities for the current input box
+DIFFZ,Z-direction diffusivities for the current input box
+EDITNNC,Modifies non-neighbor connections. EDITNNCR Replaces non-neighbor connections.
+ENDBOX,Re-defines the current input box to encompass the whole grid.
+ENDFIN,Terminates data for a local grid refinement.
+EQUALREG,"Sets an array to a constant value in a flux, MULTNUM, or OPERNUM region."
+EQUALS,Sets specified arrays to specified constants within the current box.
+FILEUNIT,Confirms the units of the data set.
+HMMULTPV,History matching pore volume multipliers.
+HMMULTxx,History matching transmissibility multipliers.
+IMPORT,Imports binary data generated by a grid pre-processor.
+LGRCOPY,Copy global values to local cells before operations on cells within an LGR.
+MAXVALUE,Applies a maximum value to specified arrays within the current box.
+MINVALUE,Applies a minimum value to specified arrays within the current box.
+MULTFLT,Applies a transmissibility multiplier to a named fault defined by the FAULTS keyword in the GRID section.
+MULTIPLY,Multiplies specified arrays by specified constants within the current box.
+MULTIREG,"Multiplies an array by a constant in a given flux, MULTNUM or OPERNUM region."
+MULTPV,Multiplies the calculated pore volume within the current box.
+MULTREGT,Multiplies transmissibilities between flux or multiplier regions.
+MULTREGP,Multiplies pore volumes between flux or multiplier regions.
+OPERATE,Performs arithmetic operations on arrays.
+OPERATER,Performs arithmetic operations on arrays for a specific region of the grid (defined using the OPERNUM keyword in the GRID section).
+PORV,Grid block pore volumes for the current input box.
+REFINE,Select local grid refinement for input data.
+ROCKV,Rock volume
+TRANR,R direction transmissibilities for the current input box
+TRANTHT,Theta direction transmissibilities for the current input box
+TRANX,X direction transmissibilities for the current input box
+TRANY,Y direction transmissibilities for the current input box
+TRANZ,Z direction transmissibilities for the current input box
+MULTR,Sets an additional R-direction transmissibility multiplier within the current box.
+MULTR-,Sets an additional negative R-direction transmissibility multiplier within the current box.
+MULTREGD,Multiplies diffusivities between flux or multiplier regions.
+MULTREGH,Multiplies thermal conductivity between flux or multiplier regions.
+MULTTHT,Sets an additional Theta-direction transmissibility multiplier within the current box.
+MULTTHT-,Sets an additional negative Theta-direction transmissibility multiplier within the current box.
+MULTX,Sets an additional X-direction transmissibility multiplier within the current box.
+MULTX-,Sets an additional negative X-direction transmissibility multiplier within the current box.
+MULTY,Sets an additional Y-direction transmissibility multiplier within the current box.
+MULTY-,Sets an additional negative Y-direction transmissibility multiplier within the current box.
+MULTZ,Sets an additional Z-direction transmissibility multiplier within the current box.
+MULTZ-,Sets an additional negative Z-direction transmissibility multiplier within the current box.
+HEATTR,Heat transmissibility values in the R-direction.
+HEATTHT,Heat transmissibility values in the Theta-direction.
+HEATTX,Heat transmissibility values in the X-direction.
+HEATTY,Heat transmissibility values in the Y-direction.
+HEATTZ,Heat transmissibility values in the Z-direction.
+ROCKV,Rock volume
+STONE1,Stone model 1 (modified) for three phase oil permeability.
+STONE1EX,Exponent term for Stone model 1.
+STONE2,Stone model 2 (modified) for three phase oil permeability.
+BAKER1,Baker interpolation method 1 for three phase permeability. Applies to any specified phase.
+BAKER2,Baker interpolation method 2 for three phase permeability. Applies to any specified phase.
+IKU3P,IKU interpolation method. Applies to all phases.
+ODD3P,ODD3P interpolation method. Applies to all phases.
+SOF3,For oil in three-phase models.
+SGF3,For gas in three-phase models.
+SWF3,For water in three-phase models.
+ACTDIMS,Dimensions for the ACTION facility.
+ACTPARAM,Parameters for controlling ACTION facility functions.
+ASPHALTE,Enable the asphaltene modeling.
+BLACKOIL,Requests black oil mode.
+BRINE,Enable brine tracking.
+CART,Specify Cartesian geometry.
+COAL,Enable the Coal Bed Methane option.
+CPR,Activate the CPR linear solver.
+DIFFUSE,Enable molecular diffusion.
+DIMENS,Specify the grid dimensions.
+DUALPERM,Use the Dual Permeability option.
+DUALPORO,Use the Dual Porosity option.
+DYNRDIMS,Sets up dimensions for the Dynamic Region facility.
+ENDSCALE,Use saturation table end point scaling.
+FIELD,Use Field unit convention.
+TITLE,Title
+DIMENS,"Number of blocks in X,Y,Z directions"
+"OIL, WATER, GAS, VAPOIL, DISGAS","The active phases present, that is which of the saturations (Rs or Rv) vary"
+FIELD / METRIC / LAB,Unit convention
+START,Start date of the simulation. In ECLIPSE 300 the START keyword is only mandatory if the DATES keyword is used.
+WELLDIMS,Well and group dimensions
+GRID, Begins the definition of the grid geometry.
+DX, Grid block length in the x-direction.
+DY, Grid block length in the y-direction.
+DZ, Grid block height in the z-direction.
+TOPS, Top depth of grid blocks.
+PORO, Porosity of each grid block.
+PERMX, Permeability in x-direction.
+PERMY, Permeability in y-direction.
+PERMZ, Permeability in z-direction.
+NTG, Net-to-gross ratio.
+MULTX, Transmissibility multiplier in x-direction.
+MULTY, Transmissibility multiplier in y-direction.
+MULTZ, Transmissibility multiplier in z-direction.
+MULTPV, Multiplies pore volume in the current box.
+PVTNUM, Assigns PVT region numbers to grid blocks.
+SATNUM, Assigns saturation function region numbers.
+EQLDIMS," Declares the number of PVT, saturation, and rock regions."
+SWOF, Saturation vs. relative permeability table for oil-water system.
+SGOF, Saturation vs. relative permeability table for gas-oil system.
+PVTW, Defines water PVT properties.
+PVTO, Defines oil PVT properties.
+PVTG, Defines gas PVT properties.
+ROCK, Rock compressibility as a function of pressure.
+COMPRESS, Compressibility factor for grid blocks.
+REGIONS, Begins region definition section.
+COPY, Copies values from one array to another.
+ADD, Adds constants to specified arrays.
+MULTIPLY, Multiplies arrays by constants.
+EQUALS, Sets specified arrays to specified constants.
+BOX, Defines a subregion of the grid.
+ENDBOX, Ends a box definition.
+INCLUDE, Includes external data files.
+DATES, Begins time step date definitions.
+TSTEP, Defines time steps in days.
+WELSPECS," Well specification definition (name, location, type)."
+COMPDAT, Defines well completions and perforations.
+WCONPROD, Well production controls.
+WCONINJE, Well injection controls.
+WELSEGS, Defines segmented wells.
+WSEGSICD, Defines inflow control devices (ICD).
+VFPINJ, Vertical flow performance table for injectors.
+VFPProd, Vertical flow performance table for producers.
+SCHEDULE, Begins the schedule section of the simulation.
+SUMMARY, Specifies which results to output to summary file.
+RPTRST, Controls restart file output.
+RPTRUN, Controls output during the run.
+RPTSCHED," Controls schedule output (well status, controls, etc)."
+RUNSPEC, Begins the run specification section.
+UNIFOUT, Requests unified restart file output.
+FMTOUT, Requests formatted output files.
+ACTIONX, Defines conditional actions during simulation runs.
+AQUNUM, Assigns aquifer numbers to grid blocks.
+AQUDIMS, Specifies the number of aquifers in the model.
+AQUANCON, Defines aquifer-to-grid block connections.
+AQUCT, Sets aquifer compressibility.
+AQUFETP, Specifies aquifer flow efficiency.
+AQUFLUX, Defines aquifer flux rates.
+AQUIMPR, Sets aquifer productivity index.
+AQUSEAL, Defines sealing faults for aquifers.
+AQUWELL, Specifies wells connected to aquifers.
+BHP, Sets bottom-hole pressure constraints.
+COMPORD, Defines the order of component processing.
+CONNECTION, Specifies connections between grid blocks.
+CONNSPEC, Details specific connection properties.
+CONVSTRG, Sets convergence stringency parameters.
+COPS, Defines cost parameters for economic analysis.
+CPR, Specifies compressibility parameters.
+CROSSFLOW, Enables or disables crossflow between layers.
+CVD, Sets critical velocity dispersion parameters.
+DENSITY, Defines fluid density values.
+DIFFUSION, Specifies diffusion coefficients.
+DISGAS, Enables dissolved gas modeling.
+DISGASR, Sets dissolved gas ratio parameters.
+DRAINAGE, Defines drainage areas for wells.
+DRILL, Specifies drilling schedules and parameters.
+DRILLWELL, Details drilling operations for wells.
+ECLIPSE, Sets simulator-specific options.
+EDFM, Enables embedded discrete fracture modeling.
+EOR, Specifies enhanced oil recovery methods.
+EQUIL, Defines equilibrium conditions for initialization.
+FAULTS, Specifies fault properties and locations.
+FIPNUM, Assigns fluid-in-place region numbers.
+FLUXNUM, Assigns flux region numbers.
+FLOOD, Defines waterflooding operations.
+FRACTURE, Specifies fracture properties.
+GASLIFT, Sets gas lift parameters for wells.
+GCONINJE, Defines group injection controls.
+GCONPROD, Defines group production controls.
+GEO, Specifies geological properties.
+GEOMETRY, Defines grid geometry parameters.
+GRAVITY, Sets gravity acceleration value.
+GRIDFILE, Specifies external grid file for simulation.
+HEAT, Enables thermal simulation options.
+HISTORY, Incorporates historical production data.
+HORIZON, Defines geological horizons.
+HYDROCARB, Specifies hydrocarbon properties.
+IMPES, Sets implicit pressure explicit saturation options.
+INCOMP, Defines incompressible fluid properties.
+INJECTOR, Specifies injector well parameters.
+INIT, Initializes simulation parameters.
+INTEG, Sets integration control parameters.
+INTERFACE, Defines interface properties between regions.
+ALSURFAD,Surfactant adsorption multipliers.
+ALPOLADS,Polymer adsorption multipliers.
+ALKADS,Alkaline adsorption functions (tabulated).
+ADSORP,Alkaline adsorption functions (analytical).
+ALKROCK,Alkaline-rock properties.
+DENSITY,Stock tank fluid densities.
+GRAVITY,Stock tank fluid gravities. Required.
+PMAX,Maximum pressure expected in the simulation run.
+PVCO,FVF and viscosity of live oil as functions of bubble point pressure.
+PVTO,FVF and viscosity of live oil as functions of pressure and R?.
+PVTG,FVF and viscosity of gas as functions of pressure and R?.
+PVDG,FVF and viscosity of dry gas as functions of pressure.
+PVTW,"FVF, compressibility, and viscosity of water."
+PVCDO,FVF and viscosity of dead oil with constant compressibility.
+PVDO,FVF and viscosity of dead oil as functions of pressure.
+RSCONST,Sets a constant R? for dead oil over the whole field.
+RSCONSTT,"Sets constant R? for dead oil, a different value in each PVT region."
+PVZG,Z-factor and viscosity of dry gas as functions of pressure.
+RVCONST,Sets a constant R? for dry gas over the whole field.
+RVCONSTT,"Sets constant R? for dry gas, a different value in each PVT region."
+EQLDKVCR,K-values for equilibrium deviation reactions
+EQLDREAC,Equilibrium deviation reaction rates
+REACACT,Reaction activation molar energy
+REACENTH,Reaction molar enthalpy
+REACCORD,Reaction rate component order
+REACPHA,Reactant phase
+REACPORD,Reaction rate porosity order
+REACRATE,Reaction rate constant
+REACSMAX,Reaction rate solid saturation limit.
+REACSORD,Reaction rate solid order.
+REACTRAC,Tracer dependent reaction rate terms
+STOPROD,Stoichiometric coefficients of products
+STOREAC,Stoichiometric coefficients of reactants
+COALADS,Gas/solvent relative adsorption data.
+COALPP,Gas/solvent partial pressure data.
+DIFFCOAL,Gas diffusion data.
+LANGMPL,Pressure scaling factor for the adsorption capacity for each grid cell.
+LANGMUIR,Tables of coal surface gas concentration.
+LANGSOLV,Tables of coal solvent gas concentration.
+MLANG,Maximum surface gas concentration.
+MLANGSLV,Maximum solvent surface concentration.
+ROCKPAMA,Palmer-Mansoori rock model data.
+TPAMEPS,Specify strain term as a function of adsorbed gas concentration
+TPAMEPSS,Specify strain term as a function of adsorbed solvent concentration
+DIFFCBM,Diffusion coefficients.
+LANGMEXT,Extended Langmuir isotherm data for each component.
+LANGMPL,Pressure scaling factor for the adsorption capacity for each grid cell.
+LANGMUIR,Langmuir isotherm table data for each component.
+LANGMULC,Langmuir multipliers on a cell by cell basis for each component.
+LANGMULT,Langmuir multipliers on a cell by cell basis.
+RESORB,Re-adsorption factor.
+ROCKPAMA,Palmer-Mansoori rock model data.
+ROCKPAME,Composition dependent Palmer-Mansoori alike rock model data.
+TPAMEPS,Specify the strain term for each component versus gas concentration to be used by ROCKPAMA.
+ACF,Acentric factors. Required.
+ACFS,Acentric factors for surface EoS
+BIC,Binary interaction coefficients for EoS.
+BICS,Binary interaction coefficients for surface EoS
+CALVAL / CALVALR,Component calorific values and component calorific values for multiple equation of state regions.
+CNAMES,Component names.
+DENSITY,Stock tank fluid densities.
+GRAVITY,Stock tank fluid gravities.
+DREF,Reference densities (for Zudkevitch Joffe EoS).
+FACTLI,Modifies the Li critical temperature correlation.
+GREF,Reference gravities (for Zudkevitch Joffe).
+LBCCOEF,Set non-default LBC coefficients.
+LBCCOEFR,Set non-default LBC coefficients for multiple equation of state regions.
+LILIM,Specifies the range for Li-interpolation.
+MW,Molecular weights.
+MWS,Molecular weights for surface EoS.
+NCOMPS,Confirm number of components. Confirms the value of NCOMPS set in RUNSPEC.
+OMEGAA,??? values for reservoir.
+OMEGAAS,?? values for surface EoS.
+OMEGAB,?_b? values for reservoir. Assumes default values if omitted.
+OMEGABS,?_b values for surface EoS.
+PCRIT,Critical pressures.
+PCRITS,Critical pressures for surface EoS.
+PEDERSEN,Allows use of Pedersen viscosity calculation.
+PEDTUNE,Provides a single set of multiplicative tuning parameters to modify the mixture molecular weight calculation used in the Pedersen et al. viscosity calculation.
+ENSPCVD,"Variation of the scaled connate saturation, for Pc curves only, with depth."
+IMKRVVD,Variation of end point relative permeability values with depth for the imbibition curve
+IMPCVD,Variation of maximum capillary pressure values with depth for the imbibition curve.
+IMPTVD,Variation of end point saturation values with depth for the imbibition curve.
+IMSPCVD,"Variation of the scaled connate saturation, for Pc curves only, with depth for the imbibition curve."
+"IPCG, IPCW","Imbibition curve end point capillary pressure values, equivalent to keywords PCG, PCW."
+"ISGLPC, ISWLPC","Imbibition curve end point scaling data, equivalent to keywords SGLPC, SWLPC."
+NOWARNEP,Suppresses all warning messages resulting from end point consistency checks.
+SCALELIM,Sets saturation scaling limits for each end point scaling versus depth region.
+SGLPC,"Connate gas saturation, for Pc curves only, for grid cells in the current input box"
+SWLPC,"Connate water saturation, for Pc curves only, for grid cells in the current input box."
+ADSORP,Tracer adsorption functions (analytical).
+TRDCY,Tracer decay functions.
+TRDIF,Tracer diffusion functions.
+TRROCK,Tracer rock properties.
+FOAMFCN,Gas mobility reduction dependence upon capillary number
+FOAMFRM,Gas reference mobility reduction factor
+FOAMFSC,Gas mobility reduction dependence upon surfactant concentration
+FOAMFSO,Gas mobility reduction dependence upon oil saturation
+FOAMFST,Gas-water surface tension dependence upon concentration
+FOAMFSW,Gas mobility reduction dependence upon water saturation
+FOAMADS,Foam adsorption functions
+FOAMDCYO,Foam decay as a function of oil saturation
+FOAMDCYW,Foam decay as a function of water saturation
+FOAMMOB,Gas mobility reduction data
+FOAMMOBP,Pressure dependence on foam mobility reduction
+FOAMMOBS,Shear dependence on foam mobility reduction
+FOAMOPTS,Specifies the Foam Model options.
+FOAMROCK,Specifies the foam rock properties.
+BIOTCTAB,"Defines a multiplier for the Biot constant, this being a two-dimensional tabular function of maximum and minimum principal stress."
+GEOYLDF,Defines parameters for the plastic yield function in each geomechanics region.
+PERMSTAB,"Defines a permeability multiplier, this being a two-dimensional tabular function of maximum and minimum principal stress. A table is entered for each geomechanics region."
+SCDATABG,"Defines a scale damage table to be used together with the proppant flowback feature, keyword PROPFLOW."
+HMMROCK,Cumulative multipliers on rock compressibility.
+HMMROCKT,Cumulative modifiers of rock compaction parameters.
+HMPROPS,Section heading for end-point scaling modifiers.
+HMROCK,Calculate gradients with respect to rock compressibility multipliers.
+HMROCKT,Calculate gradients with respect to rock compaction parameters.
+HMRREF,Reference pressures for HMROCKT.
+KVGEN,Specify that K-values are to be generated internally.
+KVTABLE,Tables of K-values.
+"KVTABCn, KVMF, KVCOMP",Composition dependent K-values.
+ADSORP,Polymer adsorption functions (analytical) with optional salinity dependence.
+PLYMAX,Polymer/salt concentrations for mixing calculations.
+PLYROCK,Polymer-rock properties.
+PLYSHEAR,Polymer shear thinning/thickening data.
+PLYVISC,Polymer solution viscosity function.
+PLYVISCS,Polymer/salt solution viscosity function.
+SALTNODE,Salt concentration nodes for polymer solution viscosity.
+ADSALNOD,Salt concentration nodes for polymer solution adsorption
+PLYATEMP,Polymer adsorption functions varying with temperature (tabulated).
+SOCRS,Scaled critical oil-in-water saturations at miscible conditions.
+SURFST,Oil-water surface tension in the presence of surfactant.
+SURFSTES,Salinity dependent oil-water surface tension in the presence of surfactant.
+ESSNODE,Salt concentration nodes for oil-water surface tension.
+SURFVIS,Modified water viscosity.
+SURFCAPD,Capillary de-saturation data.
+SURFADS,Surfactant adsorption functions (tabulated).
+ADSORP,Surfactant adsorption functions (analytical) with optional salinity dependence
+SURFADDW,"Tables of adsorbed surfactant mass versus fraction of oil-wet and water-wet curves, for calculating immiscible relative permeabilities."
+SURFROCK,Rock properties.
+TRACKERP,Partitioning function K(P) for partitioned tracers.
+CVTYPE,Define solid phase components
+CVTYPES,Define solid phase components at surface conditions
+REACSMAX,Reaction rate solid saturation limit
+REACSORD,Reaction rate solid order
+SCREF,Component solid phase compressibility
+SDREF,Component solid phase reference density
+SOLIDADS,Solid adsorption table
+SOLIDMMC,Solid mobility multiplier (as a function of adsorbed solid concentration)
+SOLIDMMS,Solid mobility multiplier (as a function of adsorbed solid saturation)
+SOLWTAB,Defines an interpolation parameter as a function of adsorbed solid concentration.
+SOLWW,Defines a component weighting factor for calculating the wetting-solid concentration.
+SPECHS,"Component solid specific heat, 1st coefficient"
+SPECHT,"Component solid specific heat, 2nd coefficient"
+SPREF,Component solid phase reference pressure
+STREF,Component solid phase reference temperature
+STHERMX1,Component solid phase thermal expansion coefficient
+SURFST,Oil-water surface tension in the presence of surfactant.
+SURFSTES,Salinity dependent oil-water surface tension in the presence of surfactant.
+ESSNODE,Salt concentration nodes for oil-water surface tension.
+SALTEFF,Effective salinity coefficients.
+SURFCAPD,Capillary de-saturation data.
+SURFOPTS,Surfactant options.
+OILVISCT,Inputs tables of oil viscosity versus temperature.
+RTEMP,Specify constant reservoir temperature.
+RTEMPA,Specify constant reservoir temperature.
+SPECHEAT,Inputs tables of fluid specific heat data.
+SPECROCK,Inputs tables of rock specific heat data.
+TEMPTVD,Requests the use of the flux limited transport scheme.
+VISCOREF,Sets reference conditions for viscosity versus temperature tables.
+WATVISCT,Inputs tables of water viscosity versus temperature.
+TRACER,Names and phases of passive tracers.
+TRACITVD,"Requests implicit flux limiting scheme, to reduce numerical dispersion."
+TRACTVD,"Requests explicit flux limiting scheme, to reduce numerical dispersion."
+TRDIF,Tracer diffusion functions.
+TRDIS,Tracer dispersion table numbers.
+DISPERSE,Tracer dispersion tables.
+DIAGDISP,Enables an alternate form of dispersion.
+TRNHD,Speeds up dispersion calculation for a tracer when the dispersion is only being used to model constant coefficient non-homogeneous diffusion
+AMFVD,Aqueous mole fractions versus depth
+CREF,Component compressibilities
+CCTYPE,Component liquid compressibility type
+CCTYPES,Component liquid compressibility type at surface conditions
+CGDTYPE,Component gas (EoS) density model
+CGVTYPE,Component gas (EoS LBC) viscosity model
+CODTYPE,Component oil (EoS) density model
+COVTYPE,Component oil (EoS LBC) viscosity model
+CVTYPE,"Component volatility (dead, live, gaseous)"
+CVTYPES,"Component volatility (dead, live, gaseous) at surface conditions"
+DREF,Fluid densities at the reference pressures and temperatures.
+DREFS,Reference densities for use in the surface calculations
+DREFT,alias for DREF
+DREFTS,alias for DREFS
+ENKRVT,Endpoint relative permeabilities versus temperature
+ENPCVT,Endpoint capillary pressures versus temperature
+ENPTVT,Endpoint saturations versus temperature
+GASVISCF,Gas viscosity function of temperature
+GASVISCT,Gas viscosity table as a function of temperature
+HEATVAP,Component heat of vaporization at standard temperature
+HEATVAPE,Component heat of vaporization
+HEATVAPS,Heat of vaporization exponent
+KVCR,K-value correlation parameters
+KVCRS,K-value correlation parameters at surface conditions
+KVGEN,K-values generated from an EoS.
+KVCRWAT,Water K-value correlation parameters
+KVTABTn,Tables of K-values
+KVTEMP,Temperatures for K-value tables
+KWTABTn,Tables of aqua Kw-values
+KWTEMP,Temperatures for Kw-value tables
+KVWI,Wilson K-value correlation parameters
+OILCOMPR,"Oil compressibility, expansion coefficient"
+OILMW,Oil molecular weight
+OILSPECH,Oil specific heat
+OILVINDX,Oil viscosity index
+OILVISCC,Oil viscosity-temperature correlations
+OILVISCF,Oil viscosity function
+OILVISCT,Oil viscosity table as a function of T
+OILVTIM,Interpolation method for OILVISCT data
+PREF,Component reference pressures
+PREFS,Component reference pressures for surface EoS
+PREFT,Alias for PREF
+PREFTS,Alias for PREFS
+REACENTH,Reaction molar enthalpy
+SPECHA,"Component oil specific heat, 1st coefficient"
+SPECHB,"Component oil specific heat, 2nd coefficient"
+SPECHG,"Component gas specific heat, 1st coefficient"
+SPECHH,"Component gas specific heat, 2nd coefficient"
+SPECHS,"Component solid specific heat, 1st coefficient Solid option"
+SPECHT,"Component solid specific heat, 2nd coefficient Solid option"
+SPECHW1,"Component aqua specific heat, 1st coefficient"
+SPECHW2,"Component aqua specific heat, 2nd coefficient"
+THANALB,Analytic water and steam densities
+THANALH,Analytic water and steam enthalpy values
+THERMEX1,Analytic oil viscosities
+THANALV,Component thermal expansion coefficient
+THSVC,Steam viscosity coefficients
+THTABB,Tabular water and steam densities
+THWVC,Water viscosity coefficients
+TRANGE,Expected temperature limits
+TREF,Reference temperatures for fluid densities
+TREFS,Reference temperatures for use in the surface calculations
+TREFT,alias for TREF
+TREFTS,alias for TREFS
+VISCOREF,Reference conditions for the viscosity/temperature tables
+WATDENT,Water density temperature dependence
+WATVISCT,Inputs tables of water viscosity versus temperature.
+ZFACT1,Z-factor first coefficient
+ZFACT1S,Surface Z-factor first coefficient
+ZFACTOR,Z-factors zeroth coefficient
+ZFACTORS,Surface Z-factor zeroth coefficient
+EPSODD3P,"End-point scaling, reference surface tensions and threshold interfacial tensions"
+HSGRO,Hysteresis end-point (residual) grid-block gas saturations for a gas-oil system
+HSGRW,Hysteresis end-point (residual) grid-block gas saturations for a gas-water system
+HSORG,Hysteresis end-point (residual) grid-block oil saturations for an oil-gas system
+HSORW,Hysteresis end-point (residual) grid-block oil saturations for an oil-water system
+HSWRG,Hysteresis end-point (residual) grid-block water saturations for a water-gas system
+HSWRO,Hysteresis end-point (residual) grid-block water saturations for a water-oil system
+ODD3P,Select the ODD3P three-phase relative permeability and capillary pressure model
+OPTODD3P,Provides backwards compatibility and saturation switching options for the ODD3P three-phase relative permeability and capillary pressure hysteresis model
+PCODD3P,Capillary pressure calculation control
+PCODD3PG,Capillary pressure gas saturation function
+PCODD3PW,Capillary pressure water saturation function
+PSGRO,Primary end-point (residual) grid-block gas saturations for a gas-oil system
+PSGRW,Primary end-point (residual) grid-block gas saturations for a gas-water system
+PSORG,Primary end-point (residual) grid-block oil saturations for an oil-gas system
+PSORW,Primary end-point (residual) grid-block oil saturations for an oil-water system
+PSWRG,Primary end-point (residual) grid-block water saturations for a water-gas system
+PSWRO,Primary end-point (residual) grid-block water saturations for a water-oil system
+ADD,Adds specified constants to specified arrays in the current input box.
+ADDREG,"Add by MULTNUM, FLUXNUM or OPERNUM region."
+BOX,Redefines the current input box.
+COPY,Copies data in the current box from one specified array to another.
+COPYBOX,Copies data from one box of cells to another box of the same size.
+COPYREG,"Copy by FLUXNUM, MULTNUM or OPERNUM region."
+ENDBOX,Redefines the current input box to encompass the whole grid.
+ENDFIN,End input for local grid refinement.
+EQUALREG,"Set by FLUXNUM, MULTNUM or OPERNUM region."
+EQUALS,Sets specified arrays to specified constants within the current box.
+IMPORT,Imports binary data generated by a grid pre-processor.
+MAXVALUE,Applies a maximum value to specified arrays within the current box.
+MINVALUE,Applies a minimum value to specified arrays within the current box.
+MULTIPLY,Multiplies specified arrays by specified constants within the current box.
+MULTIREG,"Multiply by FLUXNUM, MULTNUM or OPERNUM region."
+OPERATE,Performs arithmetic operations on arrays.
+OPERATER,Performs arithmetic operations on arrays for a specific region of the grid (defined using the OPERNUM keyword in the GRID section).
+REFINE,Initiates data for a named local grid.
+ACTCO2S,Activity coefficient model for CO?. CO2STORE only
+AQUTAB,Carter-Tracy aquifer influence functions.
+DENSITY,Stock tank fluid densities.
+ENKRVD,Variation of end point relative permeability values with depth.
+ENPCVD,Variation of maximum capillary pressure values with depth.
+ENPTVD,Variation of saturation table end points with depth.
+EPSDBGS,Outputs scaled relative permeability curves to the Debug file for multiple sets of grid block.
+EPSDEBUG,Outputs scaled relative permeability curves to the Debug file.
+EQLDKVCR,K-values for equilibrium deviation reactions.
+EQLDREAC,Equilibrium deviation reaction rates.
+ESSNODE,Effective salinity nodes for salt sensitive surfactant flood studies.
+FILEUNIT,Confirms the units of the data set.
+GRAVCONS,Sets a user-defined gravity constant.
+GRAVITY,Stock tank fluid gravities.
+IKRG,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+IKRGR,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+IKRW,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+IKRWR,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+IKRO,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+IKRORG,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+IKRORW,"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+KRG,"Scales gas relative permeability values at maximum gas saturation, for cells in the current input box."
+KRGR,"Scales gas relative permeability values at residual oil saturation, for cells in the current input box."
+KRO,"Scales oil relative permeability values at maximum oil saturation, for cells in the current input box."
+KROGRG,"Scales oil relative permeability values at critical gas saturation, for cells in the current input box."
+KRORW,"Scales oil relative permeability values at critical water saturation, for cells in the KRW Scales water relative permeability values at maximum water saturation, for cells in the current input box. KRWR Scales water relative permeability values at residual oil saturation, for cells in the"
+LCUNIT,Set units for linear combination of phases.
+MAXVALUE,Applies a maximum value to specified arrays within the current box.
+MINVALUE,‘Applies a minimum value to specified arrays within the current box.
+MULTIPLY,Multiplies specified arrays by constant values in the current box.
+MULTIREG,"Multiply by MULTNUM, FLUXNUM or OPERNUM region."
+OILVISCT,Tables of oil viscosity versus temperature.
+OILVTIM,Interpolation method for OILVISCT data.
+OPERATE,Performs arithmetic operations on arrays.
+OPERATER,Performs arithmetic operations on arrays for a specific region of the grid (defined
+using,the OPERNUM keyword in the GRID section).
+OVERBURD,Overburden pressure tables.
+PCRITS,"Critical pressures for surface EoS. PCW Scales the maximum water capillary pressure, for cells in the current input box."
+PLYVISC,Polymer solution viscosity function.
+PLYVISCS,Polymer/salt solution viscosity function. PMAX Maximum pressure expected in the simulation.
+PPCWMAX,"Limits the calculated PCW values when the SWAT INIT option is used. PVCO FVF and viscosity of live oil as functions of bubble point pressure. PVDO FVF and viscosity of dead oil as functions of pressure. PVIW FVF, compressibility and viscosity of water. PVZG Z-factor and viscosity of dry gas as functions of pressure."
+REFINE,Specify data for local grid refinement.
+RKTRMDIR,Allows directional transmissibility multipliers to be defined in ROCKTAS tables.
+ROCK2D,Two-dimensional water induced rock compaction tables.
+ROCKOPTS,Controls options associated with the rock compaction facilities.
+RPTPROPS,Report levels for PROPS data.
+RTEMP,Specifies a constant reservoir temperature.
+SCALECRS,Requests alternative end point scaling method. SGCR Critical gas saturation for grid cells in the current input box.
+SGF32D,Gas relative permeability (for three-phase flows) as a 2D table. SGEN Gas relative permeability and capillary pressure as functions of Sg.
+SGL,"Connate gas saturation for grid cells in the current input box. SGOF Gas relative permeability and cap pressure, and oil relative permeability in gas,"
+SLGOF,"Gas relative permeability and cap pressure, and oil relative permeability in gas,"
+SOF32D,"Oil relative permeability as a 2D function of S,, and S, in three phase systems."
+SOMGAS,"Minimum oil saturation for STONE1 method, as a function of the gas saturation."
+SOMWAT,"Minimum oil saturation for STONE1 method, as a function of the water saturation."
+SOWCR,Residual oil-in-water saturation for cells in the current box.
+STONE,Stone’s formula for three phase oil relative permeability.
+STONEL,Stone’s formula 1 for three phase oil relative permeability.
+STONELEX,Exponent applied to saturation terms in Stone’s formula 1 for three phase oil relative
+STONE2,Stone’s formula 2 for three phase oil relative permeability.
+SURFST,Oil-water surface tension in the presence of surfactant.
+SURFCAPD,Capillary de-saturation data.
+SWATINIT,"Initial water saturation, for cells in the current input box, to scale the water Pe"
+SWF32D,"Water relative permeability (for three-phase flows) as 2-D table. SWEN Water relative permeability and capillary pressure as functions of S.. SwWL Connate water saturation for grid cells in the current input box. SWOF Water relative permeability and cap pressure, and oil relative permeability in water,"
+TOLCRIT,Controls the method of determining the table critical saturations in pathological end
+TPAMEPS,Volumetric strain values in ROCKPAMA.
+TRACER,‘Names and phases of passive tracers.
+TZONE,Controls the variation of critical end-point with depth.
+VISCREF,Reference conditions for viscosity versus temperature tables.
+WATVISCT,Tables of water viscosity versus temperature.
+ADSORP,Analytical adsorption functions.
+ALKADS,Alkaline adsorption functions.
+ALKROCK,Alkaline-rock properties.
+ALPHAT,Transport coefficient tables for imbibition processes.
+ALPOLADS,Polymer adsorption multipliers as a function of alkaline concentration.
+ALSURFAD,Surfactant adsorption multipliers as a function of alkaline concentration.
+ALSURFST,Oil/water surface tension multipliers as a function of alkaline concentration.
+APIGROUP,Allows different groups of oil PVT tables to be used in different PVTNUM regions when using API Tracking. BGGI Variation of saturated gas FVF with pressure and Gi. BOGI Variation of saturated oil FVF with pressure and Gi.
+DEPTHTAB,Depth data for boundary conditions.
+DIFEC,Molecular diffusion coefficients for each PVT region.
+DIFFDP,Restricts the molecular diffusion calculation to just the matrix-fracture flows in dual
+porosity,runs.
+DPKRMOD,Modifies the oil relative permeability in dual porosity runs.
+EHYSTR,Curvature parameters and model selection for hysteresis.
+EHYSTRR,Hysteresis parameters by region.
+ENSPCVDV,"Variation of the scaled connate saturation, for P, curves only, with depth."
+FILLEPS,Controls the output of end point data in the INIT file.
+FOAMADS,Foam adsorption functions.
+FOAMFCN,Gas mobility reduction dependence upon capillary number (functional model).
+FOAMDCYO,Foam decay as a function of oil saturation (tabular model).
+FOAMDCYW,Foam decay as a function of water saturation (tabular model).
+FOAMMOB,Gas mobility reduction data (tabular model).
+FOAMMOBE,Pressure dependence on foam mobility reduction (tabular model).
+FOAMMOBS,Shear dependence on foam mobility reduction (tabular model).
+FOAMOPTS,Specifies the Foam Model options.
+FOAMROCK,Specifies the foam rock properties.
+GIALL,Variation of saturated properties with pressure and Gi.
+GINODE,Gi nodal values.
+HMMROCK,Cumulative multipliers on rock compressibility.
+HMMROCKT,Cumulative modifiers of rock compaction parameters.
+HMPROPS,Section heading for end-point modifiers.
