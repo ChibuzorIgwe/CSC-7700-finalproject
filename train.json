@@ -1,0 +1,4146 @@
+[
+  {
+    "prompt":"Keyword",
+    "response":"Description"
+  },
+  {
+    "prompt":"FLUXOPTS",
+    "response":"Options for Flux Boundary models."
+  },
+  {
+    "prompt":"FMTHMD",
+    "response":"Indicates that the HMD file is to be formatted."
+  },
+  {
+    "prompt":"FMTIN",
+    "response":"Indicates that the input files are formatted."
+  },
+  {
+    "prompt":"FMTOUT",
+    "response":"Indicates that the output files are to be formatted."
+  },
+  {
+    "prompt":"FULLIMP",
+    "response":"Use the Fully Implicit Solution option."
+  },
+  {
+    "prompt":"GAS",
+    "response":"The run contains gas."
+  },
+  {
+    "prompt":"GDIMS",
+    "response":"Specify the dimensions for the instantaneous gradient option."
+  },
+  {
+    "prompt":"GRAVDR",
+    "response":"Use gravity drainage in dual porosity runs."
+  },
+  {
+    "prompt":"GRAVDRB",
+    "response":"Use the Vertically Discretized Gravity Drainage Model in dual porosity runs."
+  },
+  {
+    "prompt":"GRAVDRM",
+    "response":"Use the Alternative Gravity Drainage Model in dual porosity runs."
+  },
+  {
+    "prompt":"GRIDOPTS",
+    "response":"Set options to process grid data."
+  },
+  {
+    "prompt":"HMDIMS",
+    "response":"Set dimensions for the Gradient option."
+  },
+  {
+    "prompt":"IMPES",
+    "response":"Use the IMPES Solution option."
+  },
+  {
+    "prompt":"INSPEC",
+    "response":"Request an Initial Index file."
+  },
+  {
+    "prompt":"LAB",
+    "response":"Use Lab unit convention."
+  },
+  {
+    "prompt":"LGRCOPY",
+    "response":"Copy global values to local cells before operations on cells within an LGR. This will apply to all LGRs in the dataset."
+  },
+  {
+    "prompt":"MEMORY",
+    "response":"Allocate the required memory at start of run."
+  },
+  {
+    "prompt":"METRIC",
+    "response":"Use metric unit convention."
+  },
+  {
+    "prompt":"MISCIBLE",
+    "response":"Enable the Miscible Gas Flood option (ECLIPSE 100)\nAllow properties to depend on surface tension (ECLIPSE 300)."
+  },
+  {
+    "prompt":"MONITOR",
+    "response":"Request output for run-time monitoring."
+  },
+  {
+    "prompt":"MSGFILE",
+    "response":"Message file output options."
+  },
+  {
+    "prompt":"MULTIN",
+    "response":"Indicates that input files are multiple."
+  },
+  {
+    "prompt":"MULTOUT",
+    "response":"Indicates that output files are multiple."
+  },
+  {
+    "prompt":"MULTOUTS",
+    "response":"Indicates that Summary files are multiple."
+  },
+  {
+    "prompt":"MULTREAL",
+    "response":"Activates Multi-Realization licensing."
+  },
+  {
+    "prompt":"NETWORK",
+    "response":"Set dimensions for Extended Network Model."
+  },
+  {
+    "prompt":"NINEPOINT",
+    "response":"Select the Nine-point option."
+  },
+  {
+    "prompt":"NMATRIX",
+    "response":"Use the discretized Matrix Dual-porosity Model."
+  },
+  {
+    "prompt":"NOHYST",
+    "response":"Disable Hysteresis option."
+  },
+  {
+    "prompt":"NOINSPEC",
+    "response":"Do not write an Initial Index file."
+  },
+  {
+    "prompt":"NOMONITO",
+    "response":"Disable the output for run-time monitoring."
+  },
+  {
+    "prompt":"NONNC",
+    "response":"Disallow non-neighbor connections."
+  },
+  {
+    "prompt":"NORSSPEC",
+    "response":"Do not write a Restart Index file."
+  },
+  {
+    "prompt":"NOSIM",
+    "response":"Turn off simulation, but continue data checking."
+  },
+  {
+    "prompt":"NSTACK",
+    "response":"Set linear solver stack size."
+  },
+  {
+    "prompt":"NUMRES",
+    "response":"The grid contains multiple reservoirs."
+  },
+  {
+    "prompt":"NUPCOL",
+    "response":"Number of timestep iterations in which well targets are updated."
+  },
+  {
+    "prompt":"OIL",
+    "response":"The run contains oil."
+  },
+  {
+    "prompt":"PARALLEL",
+    "response":"Select a parallel run."
+  },
+  {
+    "prompt":"PETOPTS",
+    "response":"Sets options for simulator runs fired from Petrel."
+  },
+  {
+    "prompt":"RADIAL",
+    "response":"Specify radial geometry."
+  },
+  {
+    "prompt":"REGDIMS",
+    "response":"Set dimensions for regions data."
+  },
+  {
+    "prompt":"ROCKCOMP",
+    "response":"Enable the rock compaction option."
+  },
+  {
+    "prompt":"RSSPEC",
+    "response":"Request a Restart Index file."
+  },
+  {
+    "prompt":"SATOPTS",
+    "response":"Set options for directional and hysteretic relative permeabilities."
+  },
+  {
+    "prompt":"SOLID",
+    "response":"Indicates a solid phase in the run."
+  },
+  {
+    "prompt":"START",
+    "response":"Specify the start date."
+  },
+  {
+    "prompt":"TABDIMS",
+    "response":"Set table dimensions."
+  },
+  {
+    "prompt":"TITLE",
+    "response":"Specify the run title."
+  },
+  {
+    "prompt":"UDADIMS",
+    "response":"Dimensions for the user defined arguments facility."
+  },
+  {
+    "prompt":"UDQDIMS",
+    "response":"Dimensions for the user defined quantity facility."
+  },
+  {
+    "prompt":"UDQPARAM",
+    "response":"Parameters for the user defined quantity facility."
+  },
+  {
+    "prompt":"UNCODHMD",
+    "response":"Enables unencoded sensitivities from the Gradient option."
+  },
+  {
+    "prompt":"UNIFIN",
+    "response":"Indicates that input files are unified."
+  },
+  {
+    "prompt":"UNIFOUT",
+    "response":"Indicates that output files are unified."
+  },
+  {
+    "prompt":"UNIFOUTS",
+    "response":"Indicates that Summary files are unified."
+  },
+  {
+    "prompt":"VFEPDIMS",
+    "response":"Set dimensions for injection well VFP tables."
+  },
+  {
+    "prompt":"VFEPPDIMS",
+    "response":"Set dimensions for production well VFP tables."
+  },
+  {
+    "prompt":"VISAGE",
+    "response":"Activate the VISAGE geomechanics workflow."
+  },
+  {
+    "prompt":"WARP",
+    "response":"Enable WARP linear solver."
+  },
+  {
+    "prompt":"WATER",
+    "response":"The run contains water."
+  },
+  {
+    "prompt":"WCOMPRES",
+    "response":"Reduce the memory requirements of a simulation that contains a large number of wells, some of which have many connections, but most have relatively few connections."
+  },
+  {
+    "prompt":"WELLDIMS",
+    "response":"Set dimensions for well data."
+  },
+  {
+    "prompt":"WSEGDIMS",
+    "response":"Set dimensions for multisegment wells."
+  },
+  {
+    "prompt":"WSEGSOLV",
+    "response":"Sets parameters for the multisegment well iterative linear solver."
+  },
+  {
+    "prompt":"API",
+    "response":"Enable the API Tracking option."
+  },
+  {
+    "prompt":"ALKALINE",
+    "response":"Enable the Alkaline model."
+  },
+  {
+    "prompt":"AUTOREF",
+    "response":"Set options for auto refinement."
+  },
+  {
+    "prompt":"BIGMODEL",
+    "response":"Allows large models to run by changing the internal memory accounting."
+  },
+  {
+    "prompt":"DISGAS",
+    "response":"Run contains dissolved gas in live oil."
+  },
+  {
+    "prompt":"DISPDIMS",
+    "response":"Dimensions dispersion tables."
+  },
+  {
+    "prompt":"ECLMC",
+    "response":"Enable the Multi-Component option."
+  },
+  {
+    "prompt":"EQLDIMS",
+    "response":"Set dimensions of equilibration tables."
+  },
+  {
+    "prompt":"EQLOPTS",
+    "response":"Set options for equilibration."
+  },
+  {
+    "prompt":"FAULTDIM",
+    "response":"Set dimensions for fault data."
+  },
+  {
+    "prompt":"FOAM",
+    "response":"Enable the Foam option."
+  },
+  {
+    "prompt":"FRICTION",
+    "response":"Enable the Wellbore Friction option."
+  },
+  {
+    "prompt":"GASFIELD",
+    "response":"Enable special options in the Gas Field Operations Model."
+  },
+  {
+    "prompt":"GIMODEL",
+    "response":"Enable the GI Pseudo-compositional option."
+  },
+  {
+    "prompt":"LGR",
+    "response":"Set options for local grid refinement and coarsening."
+  },
+  {
+    "prompt":"LICENSES",
+    "response":"Reserve ECLIPSE 100 option licenses."
+  },
+  {
+    "prompt":"LOWSALT",
+    "response":"Enable the Low-Salinity option."
+  },
+  {
+    "prompt":"NNEWWTF",
+    "response":"Enable the non-Newtonian modeling for polymer."
+  },
+  {
+    "prompt":"NOCASC",
+    "response":"Use the linear solver tracer algorithm to solve single phase tracers."
+  },
+  {
+    "prompt":"NRSOUT",
+    "response":"Sets the maximum number of quantities that can be output to a restart file."
+  },
+  {
+    "prompt":"NRSOPTIONS",
+    "response":"Activate special options within particular facilities in ECLIPSE 100."
+  },
+  {
+    "prompt":"PARTTRAC",
+    "response":"Activate partitioned tracers for Environmental Tracers or the Surfactant option."
+  },
+  {
+    "prompt":"PATHS",
+    "response":"Set pathname aliases."
+  },
+  {
+    "prompt":"PEDIMS",
+    "response":"Used to set dimensions for a Petro-elastic Model."
+  },
+  {
+    "prompt":"PIMTDIMS",
+    "response":"Set PI scaling table dimensions."
+  },
+  {
+    "prompt":"POLYMER",
+    "response":"Enable the Polymer Flood Model."
+  },
+  {
+    "prompt":"PSTEADY",
+    "response":"Automatically runs the simulator to a steady state."
+  },
+  {
+    "prompt":"RIVRDIMS",
+    "response":"Set river dimensions."
+  },
+  {
+    "prompt":"RPTHMD",
+    "response":"Specify controls on the output to the HMD file."
+  },
+  {
+    "prompt":"RPTRUNSP",
+    "response":"Specify controls on the output of RUNSPEC data."
+  },
+  {
+    "prompt":"SAMG",
+    "response":"Enable algebraic multigrid linear solver. Note that in ECLIPSE 100 its use is restricted to single phase tracers and requires a Water Services license."
+  },
+  {
+    "prompt":"SAVE",
+    "response":"Request the output of a Save file for fast restarts."
+  },
+  {
+    "prompt":"SCDPDIMS",
+    "response":"Set dimensions for scale deposition tables."
+  },
+  {
+    "prompt":"AIM",
+    "response":"Use the AIM Solution option."
+  },
+  {
+    "prompt":"AJGRADNT",
+    "response":"Use the adjoint gradient screening option."
+  },
+  {
+    "prompt":"AQUDIMS",
+    "response":"Dimensions for aquifers."
+  },
+  {
+    "prompt":"CBMOPTS",
+    "response":"Specify the type of adsorption model to be used with the Coal Bed Methane option."
+  },
+  {
+    "prompt":"CO2SOL",
+    "response":"Allow CO₂ to dissolve in the aqueous phase."
+  },
+  {
+    "prompt":"CO2STORE",
+    "response":"Activates the CO₂ storage option."
+  },
+  {
+    "prompt":"COMPS",
+    "response":"Requests compositional mode."
+  },
+  {
+    "prompt":"COMPSOL",
+    "response":"For SOLID, BLACKOIL runs, this keyword must be used to set the number of components."
+  },
+  {
+    "prompt":"COMPW",
+    "response":"Requests water component model."
+  },
+  {
+    "prompt":"DEADOIL",
+    "response":"Use the Dead Oil option in thermal simulations."
+  },
+  {
+    "prompt":"DOMAIN",
+    "response":"Set non-default domain size for phase property evaluation."
+  },
+  {
+    "prompt":"DPCDT",
+    "response":"Set maximum rate of change of capillary pressure."
+  },
+  {
+    "prompt":"E100NOSI",
+    "response":"Switch to NOSIM mode if an incompatible ECLIPSE 100 keyword is read."
+  },
+  {
+    "prompt":"EOS",
+    "response":"Specify which equation of state is to be used."
+  },
+  {
+    "prompt":"EOSS",
+    "response":"Specify the surface equation of state."
+  },
+  {
+    "prompt":"FASTTRAC",
+    "response":"Enables shortcuts in tracer calculations."
+  },
+  {
+    "prompt":"FMTSAVE",
+    "response":"Indicates that the Save files are formatted."
+  },
+  {
+    "prompt":"FORMOPTS",
+    "response":"Formulation options."
+  },
+  {
+    "prompt":"FREEZEPC",
+    "response":"Freeze all capillary pressures in the run."
+  },
+  {
+    "prompt":"FWELLS",
+    "response":"Enable the Fractured Well Completion option."
+  },
+  {
+    "prompt":"GASSOL",
+    "response":"Use the GASSOL option."
+  },
+  {
+    "prompt":"GASWAT",
+    "response":"Use the water-gas model."
+  },
+  {
+    "prompt":"GEOMECH",
+    "response":"Selects the geomechanics option."
+  },
+  {
+    "prompt":"GEODIMS",
+    "response":"Sets the number of geomechanics regions in the simulation, sets table dimensions, in terms of the number of rows and columns, for the PERMSTAB and BIOTCTAB keywords."
+  },
+  {
+    "prompt":"GPTDIMS",
+    "response":"Set gas plant table dimensions."
+  },
+  {
+    "prompt":"H2SOL",
+    "response":"Allow H2S to dissolve in the aqueous phase."
+  },
+  {
+    "prompt":"HEATDIMS",
+    "response":"Set heater keyword dimensions in thermal simulations."
+  },
+  {
+    "prompt":"HWELLS",
+    "response":"Enable the Horizontal Well Completion option."
+  },
+  {
+    "prompt":"HYKR",
+    "response":"Enable the Relative Permeability Hysteresis option."
+  },
+  {
+    "prompt":"HYPC",
+    "response":"Enable the Capillary Pressure Hysteresis option."
+  },
+  {
+    "prompt":"HYST",
+    "response":"Enable the Hysteresis option."
+  },
+  {
+    "prompt":"HYSTJ",
+    "response":"Enable the Hysteresis option using the Jargon method."
+  },
+  {
+    "prompt":"HYSTK",
+    "response":"Enable the Hysteresis option using the Killough method."
+  },
+  {
+    "prompt":"IMPSAT",
+    "response":"Use the IMPSAT Solution option."
+  },
+  {
+    "prompt":"ISGAS",
+    "response":"The run is gas condensate."
+  },
+  {
+    "prompt":"JALS",
+    "response":"Activate the JALS linear solver."
+  },
+  {
+    "prompt":"KVALUES",
+    "response":"Use K-values in the simulation."
+  },
+  {
+    "prompt":"LAGTRAC",
+    "response":"Activates the Lagrangian Tracer Solver option."
+  },
+  {
+    "prompt":"LIVEOIL",
+    "response":"Use the live oil option in thermal simulations."
+  },
+  {
+    "prompt":"LUMPDIMS",
+    "response":"Turns on, and dimensions, the LUMPING option."
+  },
+  {
+    "prompt":"MULTSAVE",
+    "response":"Indicates that Save files are multiple."
+  },
+  {
+    "prompt":"MULTIPHA",
+    "response":"Allows multi-phase flash for asphaltene prediction."
+  },
+  {
+    "prompt":"MEMSAVE",
+    "response":"Allow use of Up Front Memory option."
+  },
+  {
+    "prompt":"NINEXZ",
+    "response":"Select the Nine-point option in the XZ plane."
+  },
+  {
+    "prompt":"NINEYZ",
+    "response":"Select the Nine-point option in the YZ plane."
+  },
+  {
+    "prompt":"NOAIMLGR",
+    "response":"Suppress making all refinement cells implicit in AIM runs."
+  },
+  {
+    "prompt":"NODPCO",
+    "response":"No dual porosity condensation."
+  },
+  {
+    "prompt":"NODPCDT",
+    "response":"Disable the DPCDT option."
+  },
+  {
+    "prompt":"NODPPM",
+    "response":"No dual porosity permeability multiplier."
+  },
+  {
+    "prompt":"NOFREEZE",
+    "response":"Suppress use of the FREEZEPC option."
+  },
+  {
+    "prompt":"NOHYKR",
+    "response":"Do not apply hysteresis to relative permeabilities."
+  },
+  {
+    "prompt":"NOHYPC",
+    "response":"Do not apply hysteresis to capillary pressure."
+  },
+  {
+    "prompt":"NOMIX",
+    "response":"Do not interpolate between oil and gas relative permeabilities near the critical point."
+  },
+  {
+    "prompt":"NPROCX",
+    "response":"Set number of processors in the x-direction for a parallel run."
+  },
+  {
+    "prompt":"NPROCY",
+    "response":"Set number of processors in the y-direction for a parallel run."
+  },
+  {
+    "prompt":"OPTIONS3",
+    "response":"Activate special options within particular facilities in ECLIPSE 300."
+  },
+  {
+    "prompt":"PDIVX",
+    "response":"Select a division of the x-direction for parallel runs."
+  },
+  {
+    "prompt":"PDIVY",
+    "response":"Select a division of the y-direction for parallel runs."
+  },
+  {
+    "prompt":"RESOPT",
+    "response":"Activates the Reservoir Optimization license key."
+  },
+  {
+    "prompt":"PSPLITX",
+    "response":"Specify multiple domain decomposition in the X-direction."
+  },
+  {
+    "prompt":"PSPLITY",
+    "response":"Specify multiple domain decomposition in the Y-direction."
+  },
+  {
+    "prompt":"PSSAT",
+    "response":"Use saturation pressure to assign states, instead of Li correlation."
+  },
+  {
+    "prompt":"PVT-M",
+    "response":"Use PVT-metric unit convention."
+  },
+  {
+    "prompt":"REACTION",
+    "response":"Define the number of chemical reactions."
+  },
+  {
+    "prompt":"ROCKDIMS",
+    "response":"Set dimensions for rock over and underburden data in thermal simulations."
+  },
+  {
+    "prompt":"RSM",
+    "response":"Output extra data to the RSM file."
+  },
+  {
+    "prompt":"SCFDIMS",
+    "response":"Set dimensions for conductive fractures."
+  },
+  {
+    "prompt":"SECTOR",
+    "response":"Define a sector model."
+  },
+  {
+    "prompt":"SECTBC",
+    "response":"Specify boundary conditions for sector model."
+  },
+  {
+    "prompt":"SKIPSTAB",
+    "response":"Speeds up flash calculations by skipping some one-phase stability calculations."
+  },
+  {
+    "prompt":"SOLVDIMS",
+    "response":"Specifies the solver dimensions for an unstructured grid."
+  },
+  {
+    "prompt":"TRACK",
+    "response":"Enable the Tracking option."
+  },
+  {
+    "prompt":"TCBDIMS",
+    "response":"Set temperature cutback table dimensions in thermal simulations."
+  },
+  {
+    "prompt":"THERMAL",
+    "response":"Enable the Thermal option."
+  },
+  {
+    "prompt":"TRCOEF",
+    "response":"Enable transport coefficients to be used."
+  },
+  {
+    "prompt":"TRPLPORO",
+    "response":"Grid for triple porosity."
+  },
+  {
+    "prompt":"UNIFSAVE",
+    "response":"Indicates that Save files are unified."
+  },
+  {
+    "prompt":"VECTABLE",
+    "response":"Set the size of the vector property table."
+  },
+  {
+    "prompt":"VELDEP",
+    "response":"Settings for velocity dependent relative permeability."
+  },
+  {
+    "prompt":"WAGHALT",
+    "response":"Selects the alternative WAG hysteresis model."
+  },
+  {
+    "prompt":"COARSEN",
+    "response":"Generates non-neighbor connections generated from using the grid coarsening option."
+  },
+  {
+    "prompt":"CIRCLE",
+    "response":"May be used in radial studies with more than two cells in the direction to represent flow across the 360 degree to 0 degree boundary."
+  },
+  {
+    "prompt":"NOCIRCLE",
+    "response":"May be used in local radial grid refinement runs to complete the circle."
+  },
+  {
+    "prompt":"NNC",
+    "response":"May be used to enter a non-neighbor transmissibility between any two cells in the reservoir. In ECLIPSE 300 this is further enhanced with the NNCGEN keyword."
+  },
+  {
+    "prompt":"SIGMA",
+    "response":"May be used to specify a coupling parameter for NNCs set up in Dual Porosity runs. The use of this is discussed in 'Dual Porosity' in the ECLIPSE Technical Description."
+  },
+  {
+    "prompt":"SIGMAGD",
+    "response":"May be used to specify a different coupling parameter for gravity drainage. By default, the SIGMA values are used."
+  },
+  {
+    "prompt":"PINCH",
+    "response":"Specifies how missing zero thickness layers are to be treated. NNCs may be generated across the absent layer."
+  },
+  {
+    "prompt":"AQUCON",
+    "response":"Connects a numerical aquifer to the reservoir using NNCs."
+  },
+  {
+    "prompt":"DX",
+    "response":"X-direction grid block sizes for the current input box (or use DXV)."
+  },
+  {
+    "prompt":"DXV",
+    "response":"Vector of X-direction grid block sizes or use DX. Simplified version of DX."
+  },
+  {
+    "prompt":"DY",
+    "response":"Y-direction grid block sizes for the current input box (or use DYV)."
+  },
+  {
+    "prompt":"DYV",
+    "response":"Vector of Y-direction grid block sizes or use DY. Simplified version of DY."
+  },
+  {
+    "prompt":"INRAD",
+    "response":"Sets inner radius of radial grid."
+  },
+  {
+    "prompt":"DR",
+    "response":"R-direction grid block sizes for the current input box (or use DRV or OUTRAD)."
+  },
+  {
+    "prompt":"DRV",
+    "response":"Vector of R-direction grid block sizes (or use DR or OUTRAD). Simplified version of DR."
+  },
+  {
+    "prompt":"OUTRAD",
+    "response":"Sets outer radius of radial grid (or use DR or DRV)."
+  },
+  {
+    "prompt":"DTHETA",
+    "response":"Theta-direction grid block sizes for the current input box (or use DTHETAV)."
+  },
+  {
+    "prompt":"DTHETAV",
+    "response":"Vector of Theta-direction grid block sizes (or use DTHETA). Simplified version of DTHETA."
+  },
+  {
+    "prompt":"COORD",
+    "response":"Defines the lines that contain all grid block corner points for each (I, J) and for each reservoir in the grid."
+  },
+  {
+    "prompt":"ZCORN",
+    "response":"Point depths of grid block corners."
+  },
+  {
+    "prompt":"GDFILE",
+    "response":"Inputs corner point positions for each cell from a GRID file as an alternative to COORD and ZCORN."
+  },
+  {
+    "prompt":"ADDZCORN",
+    "response":"Adds a constant value to cell corner point depths."
+  },
+  {
+    "prompt":"EQLZCORN",
+    "response":"Resets part of the corner point depth array within a specified box."
+  },
+  {
+    "prompt":"COORDSYS",
+    "response":"Information about the coordinate system for each reservoir in the grid. Specifies completion of the circle in both corner point and block-centered geometries."
+  },
+  {
+    "prompt":"RESVNUM",
+    "response":"Initiates COORD data input for a given reservoir in the grid."
+  },
+  {
+    "prompt":"MAPAXES",
+    "response":"Inputs map origin from a grid pre-processor, for output to the GRID file."
+  },
+  {
+    "prompt":"MAPUNITS",
+    "response":"Specifies the units used for MAPAXES data for output to the GRID file."
+  },
+  {
+    "prompt":"GRIDUNIT",
+    "response":"Specifies the grid data units that can be output by grid pre-processors or by ECLIPSE simulators writing the grid geometry files."
+  },
+  {
+    "prompt":"PORO",
+    "response":"Grid block porosities for the current input box. Must be set in some way."
+  },
+  {
+    "prompt":"DZNET",
+    "response":"Grid block net thicknesses (or use NTG)."
+  },
+  {
+    "prompt":"NTG",
+    "response":"Grid block net-to-gross ratios for current input box (or use DZNET)."
+  },
+  {
+    "prompt":"ACTNUM",
+    "response":"Identifies active grid blocks."
+  },
+  {
+    "prompt":"MIDS",
+    "response":"Specifies cell mid-point depths."
+  },
+  {
+    "prompt":"MINPV",
+    "response":"Minimum pore volume that each grid block must have to be active (scalar)."
+  },
+  {
+    "prompt":"MINPVV",
+    "response":"Minimum pore volumes that grid blocks in the current BOX must have to be active (vector)."
+  },
+  {
+    "prompt":"MULTPV",
+    "response":"Pore volume multipliers for the current input box."
+  },
+  {
+    "prompt":"PERMR",
+    "response":"R-direction permeabilities for the current input box."
+  },
+  {
+    "prompt":"PERMTHT",
+    "response":"Theta-direction permeabilities for the current input box."
+  },
+  {
+    "prompt":"PERMX",
+    "response":"X-direction permeabilities for the current input box."
+  },
+  {
+    "prompt":"PERMY",
+    "response":"Y-direction permeabilities for the current input box."
+  },
+  {
+    "prompt":"PERMZ",
+    "response":"Z-direction permeabilities for the current input box."
+  },
+  {
+    "prompt":"JFUNC",
+    "response":"Activates Leverett J-Function option to scale capillary pressure according to rock porosity and permeability."
+  },
+  {
+    "prompt":"JFUNCR",
+    "response":"Activates Leverett J-Function option to scale capillary pressure according to rock porosity and permeability on a per saturation region basis. Each set of saturation function tables may be specified to use either capillary pressures values obtained from direct table look-up or via the Leverett J-Function calculation."
+  },
+  {
+    "prompt":"NEWTRAN",
+    "response":"Specifies that corner point data should be used to compute transmissibilities."
+  },
+  {
+    "prompt":"OLDTRAN",
+    "response":"Specifies that block center data should be used to compute transmissibilities."
+  },
+  {
+    "prompt":"OLDTRANR",
+    "response":"Alternative calculation of transmissibilities using block characteristics."
+  },
+  {
+    "prompt":"PINCHNUM",
+    "response":"Identifies pinchout regions for use by PINCHREG."
+  },
+  {
+    "prompt":"PINCHREG",
+    "response":"Specifies pinchout data within PINCHNUM regions."
+  },
+  {
+    "prompt":"COLUMNS",
+    "response":"Reset left and right margins for reading data input file."
+  },
+  {
+    "prompt":"DEBUG",
+    "response":"Set debug output control switches."
+  },
+  {
+    "prompt":"DEBUG3",
+    "response":"Set debug output control switches."
+  },
+  {
+    "prompt":"ECHO",
+    "response":"Switch on the echo of the data printed at the start of each run."
+  },
+  {
+    "prompt":"END",
+    "response":"Terminate reading the data."
+  },
+  {
+    "prompt":"ENDINC",
+    "response":"Terminate reading the Include file and return to the main data file."
+  },
+  {
+    "prompt":"ENDSKIP",
+    "response":"Terminates skipping of keywords (SKIP, SKIP100, SKIP300)."
+  },
+  {
+    "prompt":"EXTRAPMS",
+    "response":"Request warning messages for PVT and VFP table extrapolation."
+  },
+  {
+    "prompt":"FORMFEED",
+    "response":"Sets the formfeed character in the Print file."
+  },
+  {
+    "prompt":"GETDATA",
+    "response":"Imports named array data from previous Initial or Restart files. (GRID, EDIT, PROPS, REGIONS and SOLUTION sections.)"
+  },
+  {
+    "prompt":"INCLUDE",
+    "response":"Insert the contents of a specified file."
+  },
+  {
+    "prompt":"MESSAGES",
+    "response":"Reset print and stop limits for messages of all severity types."
+  },
+  {
+    "prompt":"NOECHO",
+    "response":"Switch off the echo of the data printed at the start of each run."
+  },
+  {
+    "prompt":"NOWARN",
+    "response":"Suppress warning messages."
+  },
+  {
+    "prompt":"SKIP",
+    "response":"Skips the following keywords until ENDSKIP is read."
+  },
+  {
+    "prompt":"SKIP100",
+    "response":"Instructs ECLIPSE 100 to skip the following keywords until ENDSKIP is read; it is ignored in ECLIPSE 300."
+  },
+  {
+    "prompt":"SKIP300",
+    "response":"Instructs ECLIPSE 300 to skip the following keywords until ENDSKIP is read; it is ignored in ECLIPSE 100."
+  },
+  {
+    "prompt":"WARN",
+    "response":"Reactivate warning messages after suppression by NOWARN in ECLIPSE 100 only."
+  },
+  {
+    "prompt":"FAULTS",
+    "response":"Identifies fault trajectories for subsequent use by the MULTFLT keyword."
+  },
+  {
+    "prompt":"MULTFLT",
+    "response":"Multipliers for the transmissibility and diffusivity across faults defined by the FAULTS keyword."
+  },
+  {
+    "prompt":"THPRESFT",
+    "response":"Threshold pressures associated with faults defined by the FAULTS keyword."
+  },
+  {
+    "prompt":"AQUANCON",
+    "response":"Defines connection data for analytic aquifer."
+  },
+  {
+    "prompt":"BTOBALFA",
+    "response":"Switch on Z-direction block to block matrix-fracture coupling and supply single-value transmissibility connection fraction multiplier."
+  },
+  {
+    "prompt":"BTOBALFV",
+    "response":"Switch on Z-direction block to block matrix-fracture coupling and supply multiple-value transmissibility connection fraction multipliers."
+  },
+  {
+    "prompt":"DIFFMMF",
+    "response":"Diffusivity multipliers for matrix-fracture coupling."
+  },
+  {
+    "prompt":"DPGRID",
+    "response":"Enables user to enter grid data for matrix cells only."
+  },
+  {
+    "prompt":"DPNUM",
+    "response":"Identifies the extent of the regions in which the single porosity model may be applied in a dual porosity run."
+  },
+  {
+    "prompt":"DZMTRX",
+    "response":"The vertical dimension of a typical block of matrix material, for the entire grid."
+  },
+  {
+    "prompt":"DZMTRXV",
+    "response":"The vertical dimension of a typical block of matrix material, for the current box."
+  },
+  {
+    "prompt":"NMATOPTS",
+    "response":"Controls the Discretized Matrix Dual Porosity option."
+  },
+  {
+    "prompt":"NODPPM",
+    "response":"Specifies that permeabilities in the fracture cells are not to be multiplied by the fracture porosity."
+  },
+  {
+    "prompt":"SIGMA",
+    "response":"Matrix-to-fracture coupling factor for the entire grid."
+  },
+  {
+    "prompt":"SIGMAV",
+    "response":"Matrix-to-fracture coupling factor for the current box."
+  },
+  {
+    "prompt":"SIGMAGD",
+    "response":"Matrix-to-fracture coupling for oil-gas gravity drainage, for the entire grid."
+  },
+  {
+    "prompt":"SIGMAGDV",
+    "response":"Matrix-to-fracture coupling for oil-gas gravity drainage, for the current box."
+  },
+  {
+    "prompt":"LTOSIGMA",
+    "response":"Provides an easy way to calculate SIGMA from LX, LY, LZ."
+  },
+  {
+    "prompt":"LX, LY, LZ",
+    "response":"Inputs the representative matrix block sizes for the viscous displacement option."
+  },
+  {
+    "prompt":"MULTMF",
+    "response":"Transmissibility multipliers for matrix-fracture coupling."
+  },
+  {
+    "prompt":"PERMMF",
+    "response":"Permeability for matrix-fracture coupling."
+  },
+  {
+    "prompt":"COLLAPSE",
+    "response":"Specifies which cells should be collapsed."
+  },
+  {
+    "prompt":"CRITPERM",
+    "response":"Sets a critical permeability to determine which cells are collapsed."
+  },
+  {
+    "prompt":"VEDEBUG",
+    "response":"Controls debug output for VE options."
+  },
+  {
+    "prompt":"DIFFMR",
+    "response":"R-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMR-",
+    "response":"Negative R-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMTH",
+    "response":"Theta-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMTH-",
+    "response":"Negative Theta-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMX",
+    "response":"X-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMX-",
+    "response":"Negative X-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMY",
+    "response":"Y-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMY-",
+    "response":"Negative Y-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMZ",
+    "response":"Z-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMZ-",
+    "response":"Negative Z-direction diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"DIFFMMF",
+    "response":"Matrix-fracture diffusivity multipliers for the current input box."
+  },
+  {
+    "prompt":"MULTFLT",
+    "response":"Multipliers for the transmissibility and diffusivity across faults defined by the keyword."
+  },
+  {
+    "prompt":"MULTREGD",
+    "response":"Multipliers for the diffusivity between regions defined with FLUXNUM or MULTNUM."
+  },
+  {
+    "prompt":"MULTNUM",
+    "response":"Identifies regions for use with MULTREGT, MULTREGD and MULTREGH."
+  },
+  {
+    "prompt":"MULTREGH",
+    "response":"Multipliers for the thermal conductivity between regions defined with FLUXNUM or MULTNUM."
+  },
+  {
+    "prompt":"THCONR",
+    "response":"Rock thermal conductivities for the current input box."
+  },
+  {
+    "prompt":"NINENUM",
+    "response":"Specifies the extent of the nine-point discretization scheme."
+  },
+  {
+    "prompt":"MINPORV9",
+    "response":"Set a minimum pore volume for calculation of nine-point transmissibilities."
+  },
+  {
+    "prompt":"ORTHERRO",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities."
+  },
+  {
+    "prompt":"ORTHERRX",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the X-direction."
+  },
+  {
+    "prompt":"ORTHERRY",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Y-direction."
+  },
+  {
+    "prompt":"ORTHERRZ",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Z-direction."
+  },
+  {
+    "prompt":"ADD",
+    "response":"Adds specified constants to specified arrays in the current input box."
+  },
+  {
+    "prompt":"ADDREG",
+    "response":"Adds specified constants to specified arrays in a given flux, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"BOUNDARY",
+    "response":"Defines the section of the grid for which output maps are required."
+  },
+  {
+    "prompt":"BOX",
+    "response":"Redefines the current input box."
+  },
+  {
+    "prompt":"COPY",
+    "response":"Copies data in the current box from one specified array to another."
+  },
+  {
+    "prompt":"COPYBOX",
+    "response":"Copies data from one box of cells to another box of the same size."
+  },
+  {
+    "prompt":"COPYREG",
+    "response":"Copy by FLUXNUM region, MULTNUM region or OPERNUM region."
+  },
+  {
+    "prompt":"DUMPFLUX",
+    "response":"Output a Flux file."
+  },
+  {
+    "prompt":"ENDBOX",
+    "response":"Redefines the current input box to encompass the whole grid."
+  },
+  {
+    "prompt":"EQUALS",
+    "response":"Sets specified arrays to specified constants within the current box."
+  },
+  {
+    "prompt":"EQUALREG",
+    "response":"Sets specified arrays to specified constants in a given flux, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"FLUXNUM",
+    "response":"Defines flux regions, for editing data with ADDREG, EQUALREG, MULTIREG and COPYREG, and for inter-region multipliers MULTREGT, MULTREGD and MULTREGH."
+  },
+  {
+    "prompt":"FLUXREG",
+    "response":"Select which flux regions are active in a run."
+  },
+  {
+    "prompt":"GRIDFILE",
+    "response":"Controls the contents of the Grid Geometry file (for graphical output)."
+  },
+  {
+    "prompt":"IMPORT",
+    "response":"Imports binary data generated by a grid pre-processor."
+  },
+  {
+    "prompt":"INIT",
+    "response":"Produces initial file for GRAF."
+  },
+  {
+    "prompt":"LGRCOPY",
+    "response":"Copy global values to local cells before operations on cells within an LGR."
+  },
+  {
+    "prompt":"MAXVALUE",
+    "response":"Applies a maximum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MINNNCT",
+    "response":"Sets a cut-off transmissibility below which an NNC is deleted."
+  },
+  {
+    "prompt":"MINVALUE",
+    "response":"Applies a minimum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MULTIPLY",
+    "response":"Multiply specified arrays by specified constants within the current box."
+  },
+  {
+    "prompt":"MULTIREG",
+    "response":"Multiply specified arrays by specified constants in a given flux, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"NOGGF",
+    "response":"Specifies that no Grid Geometry file is to be produced (for graphical output)."
+  },
+  {
+    "prompt":"OPERATE",
+    "response":"Performs arithmetic operations on arrays."
+  },
+  {
+    "prompt":"OPERATER",
+    "response":"Performs arithmetic operations on arrays for a specific region of the grid."
+  },
+  {
+    "prompt":"OPERNUM",
+    "response":"Defines region on which to perform operations using the OPERATER keyword. The data can also be edited using ADDREG, EQUALREG, MULTIREG and COPYREG."
+  },
+  {
+    "prompt":"RPTGRID",
+    "response":"Sets report levels for GRID data."
+  },
+  {
+    "prompt":"RPTINIT",
+    "response":"Controls output to the Initialization file for GRID and EDIT data."
+  },
+  {
+    "prompt":"SOLVDIRS",
+    "response":"Overrides default settings for principal directions in the linear solver."
+  },
+  {
+    "prompt":"SPECGRID",
+    "response":"Specification of grid dimensions."
+  },
+  {
+    "prompt":"TOPS",
+    "response":"Specifies the depths of the top face of each grid cell."
+  },
+  {
+    "prompt":"USEFLUX",
+    "response":"Use a Flux file."
+  },
+  {
+    "prompt":"CIRCLE",
+    "response":"Requests completion of the circle."
+  },
+  {
+    "prompt":"MAXTRANZ",
+    "response":"Maximum Z-direction transmissibility."
+  },
+  {
+    "prompt":"MIDS",
+    "response":"Specify cell mid-point depths."
+  },
+  {
+    "prompt":"MINDZNET",
+    "response":"Minimum net thickness for active cell."
+  },
+  {
+    "prompt":"XSTC",
+    "response":"Specifies oil composition at standard conditions for the Flux option."
+  },
+  {
+    "prompt":"YSTC",
+    "response":"Specifies gas composition at standard conditions for the Flux option."
+  },
+  {
+    "prompt":"NYFIN",
+    "response":"Number of local cells in each global cell of an LGR in the Y-direction."
+  },
+  {
+    "prompt":"NZFIN",
+    "response":"Number of local cells in each global cell of an LGR in the Z-direction."
+  },
+  {
+    "prompt":"RADFIN",
+    "response":"Specifies a single-column radial local grid refinement."
+  },
+  {
+    "prompt":"REFINE",
+    "response":"Initiates data input for a named local grid."
+  },
+  {
+    "prompt":"RPTGRIDL",
+    "response":"Controls output of GRID section data for local grids."
+  },
+  {
+    "prompt":"AMALGAM",
+    "response":"Allow local grids to amalgamate."
+  },
+  {
+    "prompt":"AUTOCOAR",
+    "response":"Specifies a box of cells for coarsening within an auto refinement."
+  },
+  {
+    "prompt":"QMOBIL",
+    "response":"Controls the mobile end-point correction in an LGR."
+  },
+  {
+    "prompt":"RADFIN4",
+    "response":"Specifies a four-column radial local grid refinement."
+  },
+  {
+    "prompt":"SMULIX, SMULIY, SMULIZ",
+    "response":"Alternative transmissibility multipliers for auto refinement."
+  },
+  {
+    "prompt":"VEFIN",
+    "response":"Controls Vertical Equilibrium in local grids."
+  },
+  {
+    "prompt":"AQUCON",
+    "response":"Defines a connection between a numerical aquifer and the reservoir."
+  },
+  {
+    "prompt":"AQUCT",
+    "response":"Specifies property data for Carter-Tracy aquifer."
+  },
+  {
+    "prompt":"AQUNUM",
+    "response":"Defines a numerical aquifer."
+  },
+  {
+    "prompt":"GADJUST",
+    "response":"Adjusts diagonal permeability tensor."
+  },
+  {
+    "prompt":"MPFA",
+    "response":"Sets options for tensor permeability."
+  },
+  {
+    "prompt":"PERMXX",
+    "response":"X-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMYY",
+    "response":"Y-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMZZ",
+    "response":"Z-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMXY",
+    "response":"XY-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMYZ",
+    "response":"YZ-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMZX",
+    "response":"ZX-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"TBASIS",
+    "response":"Specify basis for tensor permeabilities."
+  },
+  {
+    "prompt":"ACTNUM",
+    "response":"Identifies active grid blocks."
+  },
+  {
+    "prompt":"CARFIN",
+    "response":"Defines a Cartesian local grid refinement."
+  },
+  {
+    "prompt":"COALNUM",
+    "response":"Specifies coal regions for the Coal bed Methane option."
+  },
+  {
+    "prompt":"EXTFIN",
+    "response":"Specifies an unstructured local grid refinement."
+  },
+  {
+    "prompt":"EXTHOST",
+    "response":"Specifies the global host cells of an unstructured local grid refinement."
+  },
+  {
+    "prompt":"EXTREPGL",
+    "response":"Specifies the replaced global cells for an unstructured local grid refinement."
+  },
+  {
+    "prompt":"FILEUNIT",
+    "response":"Confirms the units of the data set."
+  },
+  {
+    "prompt":"FLUXREG",
+    "response":"Select which flux regions are active in a run."
+  },
+  {
+    "prompt":"GDORIENT",
+    "response":"Indicates the orientation and handedness of the grid."
+  },
+  {
+    "prompt":"HMMULTPV",
+    "response":"Specifies pore volume multipliers (cumulative)."
+  },
+  {
+    "prompt":"HMMULTXX",
+    "response":"Specify history matching multipliers on transmissibility and\/or permeability."
+  },
+  {
+    "prompt":"HRFIN",
+    "response":"Local grid size ratios in the R-direction."
+  },
+  {
+    "prompt":"HXFIN",
+    "response":"Local grid size ratios in the X-direction."
+  },
+  {
+    "prompt":"HYFIN",
+    "response":"Local grid size ratios in the Y-direction."
+  },
+  {
+    "prompt":"HZFIN",
+    "response":"Local grid size ratios in the Z-direction."
+  },
+  {
+    "prompt":"MPFANUM",
+    "response":"Identifies regions in which to apply the multipoint discretization or nine point scheme."
+  },
+  {
+    "prompt":"MPFNNC",
+    "response":"Sets multi-point transmissibility coefficients."
+  },
+  {
+    "prompt":"MULTREGP",
+    "response":"Multiplies pore volumes between flux or multiplier regions."
+  },
+  {
+    "prompt":"MULTREGT",
+    "response":"Multiplies transmissibilities between flux or multiplier regions."
+  },
+  {
+    "prompt":"MULTTHT",
+    "response":"Theta-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTTHT-",
+    "response":"Negative R-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTXY",
+    "response":"X-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTXY-",
+    "response":"Negative X-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTYY",
+    "response":"Y-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTYY-",
+    "response":"Negative Y-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTZZ",
+    "response":"Z-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"MULTZZ-",
+    "response":"Negative Z-direction transmissibility multipliers for the current box."
+  },
+  {
+    "prompt":"PINCHOUT",
+    "response":"Same as keyword PINCH, but threshold thickness cannot be adjusted."
+  },
+  {
+    "prompt":"PINCHXY",
+    "response":"Generates horizontal (I, J) pinchout connections."
+  },
+  {
+    "prompt":"ROCKFRAC",
+    "response":"Sets the rock volume fraction for each grid block."
+  },
+  {
+    "prompt":"RPTINIT",
+    "response":"Controls output to the Initialization file for GRID and EDIT data."
+  },
+  {
+    "prompt":"SIGMAGDV",
+    "response":"Matrix-fracture coupling for oil-gas gravity drainage (current box)."
+  },
+  {
+    "prompt":"SIGMAV",
+    "response":"Matrix-to-fracture coupling factor for the current box."
+  },
+  {
+    "prompt":"SOLVDIMS",
+    "response":"Specifies the solver dimensions for an unstructured local grid refinement."
+  },
+  {
+    "prompt":"SOLVDIRS",
+    "response":"Overrides default settings for principal directions in the linear solver."
+  },
+  {
+    "prompt":"SOLVNUM",
+    "response":"Specifies the map from user numbers to solver numbers for an unstructured grid."
+  },
+  {
+    "prompt":"THCONR",
+    "response":"Rock and fluid thermal conductivities for the current box, for the Temperature and Thermal options."
+  },
+  {
+    "prompt":"THPRESET",
+    "response":"Specifies a threshold pressure associated with a named fault."
+  },
+  {
+    "prompt":"TRANGL",
+    "response":"Specifies the global-local connections and associated transmissibilities for an unstructured local grid refinement."
+  },
+  {
+    "prompt":"AQUUNC",
+    "response":"Specifies numerical aquifer non-neighbor connection properties explicitly."
+  },
+  {
+    "prompt":"HALFTRAN",
+    "response":"Activates the half-block transmissibility upscaling option."
+  },
+  {
+    "prompt":"HMAQUNUM",
+    "response":"Activates the calculation of gradients for numerical aquifer parameters."
+  },
+  {
+    "prompt":"HMMLAQUN",
+    "response":"Specifies cumulative multipliers on numerical aquifer parameters."
+  },
+  {
+    "prompt":"HMMRREGT",
+    "response":"Specifies cumulative inter-region transmissibility multipliers."
+  },
+  {
+    "prompt":"HMMLRGT",
+    "response":"Activates the calculation of gradients with respect to inter-region transmissibility multipliers."
+  },
+  {
+    "prompt":"IONROCK",
+    "response":"Rock ion exchange capacity."
+  },
+  {
+    "prompt":"ISOLNUM",
+    "response":"Defines the extent of each independent reservoir region."
+  },
+  {
+    "prompt":"LINKPERM",
+    "response":"Treats grid block permeabilities as applying to cell faces."
+  },
+  {
+    "prompt":"LTOSIGMA",
+    "response":"Provides an easy way to calculate SIGMA from LX, LY, LZ."
+  },
+  {
+    "prompt":"LX, LY, LZ",
+    "response":"Inputs the representative matrix block sizes for the dual porosity viscous displacement option."
+  },
+  {
+    "prompt":"MULTREGD",
+    "response":"Multiplies diffusivities between flux or multiplier regions."
+  },
+  {
+    "prompt":"MULTREGH",
+    "response":"Multiplies thermal conductivity between flux or multiplier regions."
+  },
+  {
+    "prompt":"NEWTRAN",
+    "response":"Specifies that transmissibilities are to be computed using area of contact between blocks. Default for corner point geometry."
+  },
+  {
+    "prompt":"PEBI",
+    "response":"Specifies that an unstructured grid is being used."
+  },
+  {
+    "prompt":"PERMAVE",
+    "response":"Sets options for permeability averaging in transmissibilities."
+  },
+  {
+    "prompt":"RPTISOL",
+    "response":"Generates data for the ISOLNUM keyword, output to the Debug file."
+  },
+  {
+    "prompt":"VEDEBUG",
+    "response":"Controls debug output from the Vertical Equilibrium options."
+  },
+  {
+    "prompt":"AQUQCT",
+    "response":"Specifies property data for Cater-Tracy aquifer."
+  },
+  {
+    "prompt":"BIOTC",
+    "response":"Sets the Biot constant for each grid block."
+  },
+  {
+    "prompt":"COALNUMR",
+    "response":"Redefine coal region numbers in connection with the multi-porosity option."
+  },
+  {
+    "prompt":"CONDFLTS",
+    "response":"Specifies geometry of conductive faults."
+  },
+  {
+    "prompt":"CONDFRAC",
+    "response":"Specifies geometry of a conductive fracture"
+  },
+  {
+    "prompt":"CRNDENS",
+    "response":"Specifies rock density for each coal region number"
+  },
+  {
+    "prompt":"CRITPERM",
+    "response":"Sets a critical permeability for cell collapse in Compressed VE"
+  },
+  {
+    "prompt":"DZV",
+    "response":"Vector of Z-direction grid block sizes"
+  },
+  {
+    "prompt":"GADJUST",
+    "response":"Adjusts diagonal permeability tensor"
+  },
+  {
+    "prompt":"GLTHEX",
+    "response":"Sets a coefficient of linear thermal expansion for each grid block."
+  },
+  {
+    "prompt":"HEATCR",
+    "response":"Rock heat capacity"
+  },
+  {
+    "prompt":"HEATCRT",
+    "response":"Temperature dependence of rock heat capacity"
+  },
+  {
+    "prompt":"MAXTRANZ",
+    "response":"Maximum Z-direction transmissibility."
+  },
+  {
+    "prompt":"MIDS",
+    "response":"Specify cell mid-point depths."
+  },
+  {
+    "prompt":"MINDZNET",
+    "response":"Minimum net thickness for active cell."
+  },
+  {
+    "prompt":"MINPORV9",
+    "response":"Set a minimum pore volume for calculation of nine-point transmissibilities."
+  },
+  {
+    "prompt":"MINROCKV",
+    "response":"Sets a minimum rock volume that each cell must have to be active"
+  },
+  {
+    "prompt":"MPFA",
+    "response":"Sets options for tensor permeability."
+  },
+  {
+    "prompt":"MULTMF",
+    "response":"Transmissibility multipliers for matrix-fracture coupling."
+  },
+  {
+    "prompt":"NNCGEN",
+    "response":"Allows NNCs to be generated between any two grid cells."
+  },
+  {
+    "prompt":"NOCIRCLE",
+    "response":"Turn off completion of circle for local grid refinements."
+  },
+  {
+    "prompt":"ORTHERRO",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities."
+  },
+  {
+    "prompt":"ORTHERRX",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the X-direction."
+  },
+  {
+    "prompt":"ORTHERRY",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Y-direction."
+  },
+  {
+    "prompt":"ORTHERRZ",
+    "response":"Set a minimum orthogonality error for calculation of nine-point transmissibilities for interfaces in the Z-direction."
+  },
+  {
+    "prompt":"PERMMF",
+    "response":"Permeability for matrix-fracture coupling."
+  },
+  {
+    "prompt":"PERMXX",
+    "response":"X-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMYY",
+    "response":"Y-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMZZ",
+    "response":"Z-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMXY",
+    "response":"XY-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMYZ",
+    "response":"YZ-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"PERMZX",
+    "response":"ZX-direction tensor permeability coefficient for the current input box."
+  },
+  {
+    "prompt":"POISSONR",
+    "response":"Sets the Poisson ratio for each grid block."
+  },
+  {
+    "prompt":"PROPFLOW",
+    "response":"Defines parameters to be used with the proponent flowback feature."
+  },
+  {
+    "prompt":"ROCKCON",
+    "response":"Base and cap rock connections to the global grid"
+  },
+  {
+    "prompt":"ROCKCONL",
+    "response":"Base and cap rock connections to the local grid refinements"
+  },
+  {
+    "prompt":"ROCKDEN",
+    "response":"Sets the rock density for each grid block"
+  },
+  {
+    "prompt":"ROCKPROP",
+    "response":"Base and cap rock properties"
+  },
+  {
+    "prompt":"SIGMATH",
+    "response":"Matrix-fracture thermal conductivity multiplier"
+  },
+  {
+    "prompt":"TBASIS",
+    "response":"Specify basis for tensor permeabilities"
+  },
+  {
+    "prompt":"THCGAS",
+    "response":"Gas phase thermal conductivity"
+  },
+  {
+    "prompt":"THCOIL",
+    "response":"Oil phase thermal conductivity"
+  },
+  {
+    "prompt":"THCONMF",
+    "response":"Matrix-fracture conductivity"
+  },
+  {
+    "prompt":"THCONSF",
+    "response":"Thermal conductivity saturation dependence"
+  },
+  {
+    "prompt":"THCROCK",
+    "response":"Rock thermal conductivity"
+  },
+  {
+    "prompt":"THCSOLID",
+    "response":"Solid phase thermal conductivity"
+  },
+  {
+    "prompt":"THCWATER",
+    "response":"Water phase thermal conductivity"
+  },
+  {
+    "prompt":"THEFLXTF",
+    "response":"Heat transmissibility factor for the flux boundary option."
+  },
+  {
+    "prompt":"YOUNGMOD",
+    "response":"Sets the elastic Young’s modulus for each grid block."
+  },
+  {
+    "prompt":"XSTC",
+    "response":"Specifies oil composition at standard conditions"
+  },
+  {
+    "prompt":"YSTC",
+    "response":"Specifies gas composition at standard condition."
+  },
+  {
+    "prompt":"ADD",
+    "response":"Adds specified constants to specified arrays in the current input box."
+  },
+  {
+    "prompt":"ADDREG",
+    "response":"Adds a constant to the specified array in a flux, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"BOUNDARY",
+    "response":"Defines the section of the grid for which output maps are required."
+  },
+  {
+    "prompt":"BOX",
+    "response":"Re-defines the current input box. COPY Copies data in the current box from one specified array to another."
+  },
+  {
+    "prompt":"COPYREG",
+    "response":"Copy by FLUXNUM region MULTNUM region or OPERNUM region."
+  },
+  {
+    "prompt":"DEPTH",
+    "response":"Grid block center depths for the current input box."
+  },
+  {
+    "prompt":"DIFFR",
+    "response":"R-direction diffusivities for the current input box"
+  },
+  {
+    "prompt":"DIFFTHT",
+    "response":"Theta-direction diffusivities for the current input box"
+  },
+  {
+    "prompt":"DIFFX",
+    "response":"X-direction diffusivities for the current input box"
+  },
+  {
+    "prompt":"DIFFY",
+    "response":"Y-direction diffusivities for the current input box"
+  },
+  {
+    "prompt":"DIFFZ",
+    "response":"Z-direction diffusivities for the current input box"
+  },
+  {
+    "prompt":"EDITNNC",
+    "response":"Modifies non-neighbor connections. EDITNNCR Replaces non-neighbor connections."
+  },
+  {
+    "prompt":"ENDBOX",
+    "response":"Re-defines the current input box to encompass the whole grid."
+  },
+  {
+    "prompt":"ENDFIN",
+    "response":"Terminates data for a local grid refinement."
+  },
+  {
+    "prompt":"EQUALREG",
+    "response":"Sets an array to a constant value in a flux, MULTNUM, or OPERNUM region."
+  },
+  {
+    "prompt":"EQUALS",
+    "response":"Sets specified arrays to specified constants within the current box."
+  },
+  {
+    "prompt":"FILEUNIT",
+    "response":"Confirms the units of the data set."
+  },
+  {
+    "prompt":"HMMULTPV",
+    "response":"History matching pore volume multipliers."
+  },
+  {
+    "prompt":"HMMULTxx",
+    "response":"History matching transmissibility multipliers."
+  },
+  {
+    "prompt":"IMPORT",
+    "response":"Imports binary data generated by a grid pre-processor."
+  },
+  {
+    "prompt":"LGRCOPY",
+    "response":"Copy global values to local cells before operations on cells within an LGR."
+  },
+  {
+    "prompt":"MAXVALUE",
+    "response":"Applies a maximum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MINVALUE",
+    "response":"Applies a minimum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MULTFLT",
+    "response":"Applies a transmissibility multiplier to a named fault defined by the FAULTS keyword in the GRID section."
+  },
+  {
+    "prompt":"MULTIPLY",
+    "response":"Multiplies specified arrays by specified constants within the current box."
+  },
+  {
+    "prompt":"MULTIREG",
+    "response":"Multiplies an array by a constant in a given flux, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"MULTPV",
+    "response":"Multiplies the calculated pore volume within the current box."
+  },
+  {
+    "prompt":"MULTREGT",
+    "response":"Multiplies transmissibilities between flux or multiplier regions."
+  },
+  {
+    "prompt":"MULTREGP",
+    "response":"Multiplies pore volumes between flux or multiplier regions."
+  },
+  {
+    "prompt":"OPERATE",
+    "response":"Performs arithmetic operations on arrays."
+  },
+  {
+    "prompt":"OPERATER",
+    "response":"Performs arithmetic operations on arrays for a specific region of the grid (defined using the OPERNUM keyword in the GRID section)."
+  },
+  {
+    "prompt":"PORV",
+    "response":"Grid block pore volumes for the current input box."
+  },
+  {
+    "prompt":"REFINE",
+    "response":"Select local grid refinement for input data."
+  },
+  {
+    "prompt":"ROCKV",
+    "response":"Rock volume"
+  },
+  {
+    "prompt":"TRANR",
+    "response":"R direction transmissibilities for the current input box"
+  },
+  {
+    "prompt":"TRANTHT",
+    "response":"Theta direction transmissibilities for the current input box"
+  },
+  {
+    "prompt":"TRANX",
+    "response":"X direction transmissibilities for the current input box"
+  },
+  {
+    "prompt":"TRANY",
+    "response":"Y direction transmissibilities for the current input box"
+  },
+  {
+    "prompt":"TRANZ",
+    "response":"Z direction transmissibilities for the current input box"
+  },
+  {
+    "prompt":"MULTR",
+    "response":"Sets an additional R-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTR-",
+    "response":"Sets an additional negative R-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTREGD",
+    "response":"Multiplies diffusivities between flux or multiplier regions."
+  },
+  {
+    "prompt":"MULTREGH",
+    "response":"Multiplies thermal conductivity between flux or multiplier regions."
+  },
+  {
+    "prompt":"MULTTHT",
+    "response":"Sets an additional Theta-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTTHT-",
+    "response":"Sets an additional negative Theta-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTX",
+    "response":"Sets an additional X-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTX-",
+    "response":"Sets an additional negative X-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTY",
+    "response":"Sets an additional Y-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTY-",
+    "response":"Sets an additional negative Y-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTZ",
+    "response":"Sets an additional Z-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"MULTZ-",
+    "response":"Sets an additional negative Z-direction transmissibility multiplier within the current box."
+  },
+  {
+    "prompt":"HEATTR",
+    "response":"Heat transmissibility values in the R-direction."
+  },
+  {
+    "prompt":"HEATTHT",
+    "response":"Heat transmissibility values in the Theta-direction."
+  },
+  {
+    "prompt":"HEATTX",
+    "response":"Heat transmissibility values in the X-direction."
+  },
+  {
+    "prompt":"HEATTY",
+    "response":"Heat transmissibility values in the Y-direction."
+  },
+  {
+    "prompt":"HEATTZ",
+    "response":"Heat transmissibility values in the Z-direction."
+  },
+  {
+    "prompt":"ROCKV",
+    "response":"Rock volume"
+  },
+  {
+    "prompt":"STONE1",
+    "response":"Stone model 1 (modified) for three phase oil permeability."
+  },
+  {
+    "prompt":"STONE1EX",
+    "response":"Exponent term for Stone model 1."
+  },
+  {
+    "prompt":"STONE2",
+    "response":"Stone model 2 (modified) for three phase oil permeability."
+  },
+  {
+    "prompt":"BAKER1",
+    "response":"Baker interpolation method 1 for three phase permeability. Applies to any specified phase."
+  },
+  {
+    "prompt":"BAKER2",
+    "response":"Baker interpolation method 2 for three phase permeability. Applies to any specified phase."
+  },
+  {
+    "prompt":"IKU3P",
+    "response":"IKU interpolation method. Applies to all phases."
+  },
+  {
+    "prompt":"ODD3P",
+    "response":"ODD3P interpolation method. Applies to all phases."
+  },
+  {
+    "prompt":"SOF3",
+    "response":"For oil in three-phase models."
+  },
+  {
+    "prompt":"SGF3",
+    "response":"For gas in three-phase models."
+  },
+  {
+    "prompt":"SWF3",
+    "response":"For water in three-phase models."
+  },
+  {
+    "prompt":"ACTDIMS",
+    "response":"Dimensions for the ACTION facility."
+  },
+  {
+    "prompt":"ACTPARAM",
+    "response":"Parameters for controlling ACTION facility functions."
+  },
+  {
+    "prompt":"ASPHALTE",
+    "response":"Enable the asphaltene modeling."
+  },
+  {
+    "prompt":"BLACKOIL",
+    "response":"Requests black oil mode."
+  },
+  {
+    "prompt":"BRINE",
+    "response":"Enable brine tracking."
+  },
+  {
+    "prompt":"CART",
+    "response":"Specify Cartesian geometry."
+  },
+  {
+    "prompt":"COAL",
+    "response":"Enable the Coal Bed Methane option."
+  },
+  {
+    "prompt":"CPR",
+    "response":"Activate the CPR linear solver."
+  },
+  {
+    "prompt":"DIFFUSE",
+    "response":"Enable molecular diffusion."
+  },
+  {
+    "prompt":"DIMENS",
+    "response":"Specify the grid dimensions."
+  },
+  {
+    "prompt":"DUALPERM",
+    "response":"Use the Dual Permeability option."
+  },
+  {
+    "prompt":"DUALPORO",
+    "response":"Use the Dual Porosity option."
+  },
+  {
+    "prompt":"DYNRDIMS",
+    "response":"Sets up dimensions for the Dynamic Region facility."
+  },
+  {
+    "prompt":"ENDSCALE",
+    "response":"Use saturation table end point scaling."
+  },
+  {
+    "prompt":"FIELD",
+    "response":"Use Field unit convention."
+  },
+  {
+    "prompt":"TITLE",
+    "response":"Title"
+  },
+  {
+    "prompt":"DIMENS",
+    "response":"Number of blocks in X,Y,Z directions"
+  },
+  {
+    "prompt":"OIL, WATER, GAS, VAPOIL, DISGAS",
+    "response":"The active phases present, that is which of the saturations (Rs or Rv) vary"
+  },
+  {
+    "prompt":"FIELD \/ METRIC \/ LAB",
+    "response":"Unit convention"
+  },
+  {
+    "prompt":"START",
+    "response":"Start date of the simulation. In ECLIPSE 300 the START keyword is only mandatory if the DATES keyword is used."
+  },
+  {
+    "prompt":"WELLDIMS",
+    "response":"Well and group dimensions"
+  },
+  {
+    "prompt":"GRID",
+    "response":" Begins the definition of the grid geometry."
+  },
+  {
+    "prompt":"DX",
+    "response":" Grid block length in the x-direction."
+  },
+  {
+    "prompt":"DY",
+    "response":" Grid block length in the y-direction."
+  },
+  {
+    "prompt":"DZ",
+    "response":" Grid block height in the z-direction."
+  },
+  {
+    "prompt":"TOPS",
+    "response":" Top depth of grid blocks."
+  },
+  {
+    "prompt":"PORO",
+    "response":" Porosity of each grid block."
+  },
+  {
+    "prompt":"PERMX",
+    "response":" Permeability in x-direction."
+  },
+  {
+    "prompt":"PERMY",
+    "response":" Permeability in y-direction."
+  },
+  {
+    "prompt":"PERMZ",
+    "response":" Permeability in z-direction."
+  },
+  {
+    "prompt":"NTG",
+    "response":" Net-to-gross ratio."
+  },
+  {
+    "prompt":"MULTX",
+    "response":" Transmissibility multiplier in x-direction."
+  },
+  {
+    "prompt":"MULTY",
+    "response":" Transmissibility multiplier in y-direction."
+  },
+  {
+    "prompt":"MULTZ",
+    "response":" Transmissibility multiplier in z-direction."
+  },
+  {
+    "prompt":"MULTPV",
+    "response":" Multiplies pore volume in the current box."
+  },
+  {
+    "prompt":"PVTNUM",
+    "response":" Assigns PVT region numbers to grid blocks."
+  },
+  {
+    "prompt":"SATNUM",
+    "response":" Assigns saturation function region numbers."
+  },
+  {
+    "prompt":"EQLDIMS",
+    "response":" Declares the number of PVT, saturation, and rock regions."
+  },
+  {
+    "prompt":"SWOF",
+    "response":" Saturation vs. relative permeability table for oil-water system."
+  },
+  {
+    "prompt":"SGOF",
+    "response":" Saturation vs. relative permeability table for gas-oil system."
+  },
+  {
+    "prompt":"PVTW",
+    "response":" Defines water PVT properties."
+  },
+  {
+    "prompt":"PVTO",
+    "response":" Defines oil PVT properties."
+  },
+  {
+    "prompt":"PVTG",
+    "response":" Defines gas PVT properties."
+  },
+  {
+    "prompt":"ROCK",
+    "response":" Rock compressibility as a function of pressure."
+  },
+  {
+    "prompt":"COMPRESS",
+    "response":" Compressibility factor for grid blocks."
+  },
+  {
+    "prompt":"REGIONS",
+    "response":" Begins region definition section."
+  },
+  {
+    "prompt":"COPY",
+    "response":" Copies values from one array to another."
+  },
+  {
+    "prompt":"ADD",
+    "response":" Adds constants to specified arrays."
+  },
+  {
+    "prompt":"MULTIPLY",
+    "response":" Multiplies arrays by constants."
+  },
+  {
+    "prompt":"EQUALS",
+    "response":" Sets specified arrays to specified constants."
+  },
+  {
+    "prompt":"BOX",
+    "response":" Defines a subregion of the grid."
+  },
+  {
+    "prompt":"ENDBOX",
+    "response":" Ends a box definition."
+  },
+  {
+    "prompt":"INCLUDE",
+    "response":" Includes external data files."
+  },
+  {
+    "prompt":"DATES",
+    "response":" Begins time step date definitions."
+  },
+  {
+    "prompt":"TSTEP",
+    "response":" Defines time steps in days."
+  },
+  {
+    "prompt":"WELSPECS",
+    "response":" Well specification definition (name, location, type)."
+  },
+  {
+    "prompt":"COMPDAT",
+    "response":" Defines well completions and perforations."
+  },
+  {
+    "prompt":"WCONPROD",
+    "response":" Well production controls."
+  },
+  {
+    "prompt":"WCONINJE",
+    "response":" Well injection controls."
+  },
+  {
+    "prompt":"WELSEGS",
+    "response":" Defines segmented wells."
+  },
+  {
+    "prompt":"WSEGSICD",
+    "response":" Defines inflow control devices (ICD)."
+  },
+  {
+    "prompt":"VFPINJ",
+    "response":" Vertical flow performance table for injectors."
+  },
+  {
+    "prompt":"VFPProd",
+    "response":" Vertical flow performance table for producers."
+  },
+  {
+    "prompt":"SCHEDULE",
+    "response":" Begins the schedule section of the simulation."
+  },
+  {
+    "prompt":"SUMMARY",
+    "response":" Specifies which results to output to summary file."
+  },
+  {
+    "prompt":"RPTRST",
+    "response":" Controls restart file output."
+  },
+  {
+    "prompt":"RPTRUN",
+    "response":" Controls output during the run."
+  },
+  {
+    "prompt":"RPTSCHED",
+    "response":" Controls schedule output (well status, controls, etc)."
+  },
+  {
+    "prompt":"RUNSPEC",
+    "response":" Begins the run specification section."
+  },
+  {
+    "prompt":"UNIFOUT",
+    "response":" Requests unified restart file output."
+  },
+  {
+    "prompt":"FMTOUT",
+    "response":" Requests formatted output files."
+  },
+  {
+    "prompt":"ACTIONX",
+    "response":" Defines conditional actions during simulation runs."
+  },
+  {
+    "prompt":"AQUNUM",
+    "response":" Assigns aquifer numbers to grid blocks."
+  },
+  {
+    "prompt":"AQUDIMS",
+    "response":" Specifies the number of aquifers in the model."
+  },
+  {
+    "prompt":"AQUANCON",
+    "response":" Defines aquifer-to-grid block connections."
+  },
+  {
+    "prompt":"AQUCT",
+    "response":" Sets aquifer compressibility."
+  },
+  {
+    "prompt":"AQUFETP",
+    "response":" Specifies aquifer flow efficiency."
+  },
+  {
+    "prompt":"AQUFLUX",
+    "response":" Defines aquifer flux rates."
+  },
+  {
+    "prompt":"AQUIMPR",
+    "response":" Sets aquifer productivity index."
+  },
+  {
+    "prompt":"AQUSEAL",
+    "response":" Defines sealing faults for aquifers."
+  },
+  {
+    "prompt":"AQUWELL",
+    "response":" Specifies wells connected to aquifers."
+  },
+  {
+    "prompt":"BHP",
+    "response":" Sets bottom-hole pressure constraints."
+  },
+  {
+    "prompt":"COMPORD",
+    "response":" Defines the order of component processing."
+  },
+  {
+    "prompt":"CONNECTION",
+    "response":" Specifies connections between grid blocks."
+  },
+  {
+    "prompt":"CONNSPEC",
+    "response":" Details specific connection properties."
+  },
+  {
+    "prompt":"CONVSTRG",
+    "response":" Sets convergence stringency parameters."
+  },
+  {
+    "prompt":"COPS",
+    "response":" Defines cost parameters for economic analysis."
+  },
+  {
+    "prompt":"CPR",
+    "response":" Specifies compressibility parameters."
+  },
+  {
+    "prompt":"CROSSFLOW",
+    "response":" Enables or disables crossflow between layers."
+  },
+  {
+    "prompt":"CVD",
+    "response":" Sets critical velocity dispersion parameters."
+  },
+  {
+    "prompt":"DENSITY",
+    "response":" Defines fluid density values."
+  },
+  {
+    "prompt":"DIFFUSION",
+    "response":" Specifies diffusion coefficients."
+  },
+  {
+    "prompt":"DISGAS",
+    "response":" Enables dissolved gas modeling."
+  },
+  {
+    "prompt":"DISGASR",
+    "response":" Sets dissolved gas ratio parameters."
+  },
+  {
+    "prompt":"DRAINAGE",
+    "response":" Defines drainage areas for wells."
+  },
+  {
+    "prompt":"DRILL",
+    "response":" Specifies drilling schedules and parameters."
+  },
+  {
+    "prompt":"DRILLWELL",
+    "response":" Details drilling operations for wells."
+  },
+  {
+    "prompt":"ECLIPSE",
+    "response":" Sets simulator-specific options."
+  },
+  {
+    "prompt":"EDFM",
+    "response":" Enables embedded discrete fracture modeling."
+  },
+  {
+    "prompt":"EOR",
+    "response":" Specifies enhanced oil recovery methods."
+  },
+  {
+    "prompt":"EQUIL",
+    "response":" Defines equilibrium conditions for initialization."
+  },
+  {
+    "prompt":"FAULTS",
+    "response":" Specifies fault properties and locations."
+  },
+  {
+    "prompt":"FIPNUM",
+    "response":" Assigns fluid-in-place region numbers."
+  },
+  {
+    "prompt":"FLUXNUM",
+    "response":" Assigns flux region numbers."
+  },
+  {
+    "prompt":"FLOOD",
+    "response":" Defines waterflooding operations."
+  },
+  {
+    "prompt":"FRACTURE",
+    "response":" Specifies fracture properties."
+  },
+  {
+    "prompt":"GASLIFT",
+    "response":" Sets gas lift parameters for wells."
+  },
+  {
+    "prompt":"GCONINJE",
+    "response":" Defines group injection controls."
+  },
+  {
+    "prompt":"GCONPROD",
+    "response":" Defines group production controls."
+  },
+  {
+    "prompt":"GEO",
+    "response":" Specifies geological properties."
+  },
+  {
+    "prompt":"GEOMETRY",
+    "response":" Defines grid geometry parameters."
+  },
+  {
+    "prompt":"GRAVITY",
+    "response":" Sets gravity acceleration value."
+  },
+  {
+    "prompt":"GRIDFILE",
+    "response":" Specifies external grid file for simulation."
+  },
+  {
+    "prompt":"HEAT",
+    "response":" Enables thermal simulation options."
+  },
+  {
+    "prompt":"HISTORY",
+    "response":" Incorporates historical production data."
+  },
+  {
+    "prompt":"HORIZON",
+    "response":" Defines geological horizons."
+  },
+  {
+    "prompt":"HYDROCARB",
+    "response":" Specifies hydrocarbon properties."
+  },
+  {
+    "prompt":"IMPES",
+    "response":" Sets implicit pressure explicit saturation options."
+  },
+  {
+    "prompt":"INCOMP",
+    "response":" Defines incompressible fluid properties."
+  },
+  {
+    "prompt":"INJECTOR",
+    "response":" Specifies injector well parameters."
+  },
+  {
+    "prompt":"INIT",
+    "response":" Initializes simulation parameters."
+  },
+  {
+    "prompt":"INTEG",
+    "response":" Sets integration control parameters."
+  },
+  {
+    "prompt":"INTERFACE",
+    "response":" Defines interface properties between regions."
+  },
+  {
+    "prompt":"ALSURFAD",
+    "response":"Surfactant adsorption multipliers."
+  },
+  {
+    "prompt":"ALPOLADS",
+    "response":"Polymer adsorption multipliers."
+  },
+  {
+    "prompt":"ALKADS",
+    "response":"Alkaline adsorption functions (tabulated)."
+  },
+  {
+    "prompt":"ADSORP",
+    "response":"Alkaline adsorption functions (analytical)."
+  },
+  {
+    "prompt":"ALKROCK",
+    "response":"Alkaline-rock properties."
+  },
+  {
+    "prompt":"DENSITY",
+    "response":"Stock tank fluid densities."
+  },
+  {
+    "prompt":"GRAVITY",
+    "response":"Stock tank fluid gravities. Required."
+  },
+  {
+    "prompt":"PMAX",
+    "response":"Maximum pressure expected in the simulation run."
+  },
+  {
+    "prompt":"PVCO",
+    "response":"FVF and viscosity of live oil as functions of bubble point pressure."
+  },
+  {
+    "prompt":"PVTO",
+    "response":"FVF and viscosity of live oil as functions of pressure and Rₛ."
+  },
+  {
+    "prompt":"PVTG",
+    "response":"FVF and viscosity of gas as functions of pressure and Rᵥ."
+  },
+  {
+    "prompt":"PVDG",
+    "response":"FVF and viscosity of dry gas as functions of pressure."
+  },
+  {
+    "prompt":"PVTW",
+    "response":"FVF, compressibility, and viscosity of water."
+  },
+  {
+    "prompt":"PVCDO",
+    "response":"FVF and viscosity of dead oil with constant compressibility."
+  },
+  {
+    "prompt":"PVDO",
+    "response":"FVF and viscosity of dead oil as functions of pressure."
+  },
+  {
+    "prompt":"RSCONST",
+    "response":"Sets a constant Rₛ for dead oil over the whole field."
+  },
+  {
+    "prompt":"RSCONSTT",
+    "response":"Sets constant Rₛ for dead oil, a different value in each PVT region."
+  },
+  {
+    "prompt":"PVZG",
+    "response":"Z-factor and viscosity of dry gas as functions of pressure."
+  },
+  {
+    "prompt":"RVCONST",
+    "response":"Sets a constant Rᵥ for dry gas over the whole field."
+  },
+  {
+    "prompt":"RVCONSTT",
+    "response":"Sets constant Rᵥ for dry gas, a different value in each PVT region."
+  },
+  {
+    "prompt":"EQLDKVCR",
+    "response":"K-values for equilibrium deviation reactions"
+  },
+  {
+    "prompt":"EQLDREAC",
+    "response":"Equilibrium deviation reaction rates"
+  },
+  {
+    "prompt":"REACACT",
+    "response":"Reaction activation molar energy"
+  },
+  {
+    "prompt":"REACENTH",
+    "response":"Reaction molar enthalpy"
+  },
+  {
+    "prompt":"REACCORD",
+    "response":"Reaction rate component order"
+  },
+  {
+    "prompt":"REACPHA",
+    "response":"Reactant phase"
+  },
+  {
+    "prompt":"REACPORD",
+    "response":"Reaction rate porosity order"
+  },
+  {
+    "prompt":"REACRATE",
+    "response":"Reaction rate constant"
+  },
+  {
+    "prompt":"REACSMAX",
+    "response":"Reaction rate solid saturation limit."
+  },
+  {
+    "prompt":"REACSORD",
+    "response":"Reaction rate solid order."
+  },
+  {
+    "prompt":"REACTRAC",
+    "response":"Tracer dependent reaction rate terms"
+  },
+  {
+    "prompt":"STOPROD",
+    "response":"Stoichiometric coefficients of products"
+  },
+  {
+    "prompt":"STOREAC",
+    "response":"Stoichiometric coefficients of reactants"
+  },
+  {
+    "prompt":"COALADS",
+    "response":"Gas\/solvent relative adsorption data."
+  },
+  {
+    "prompt":"COALPP",
+    "response":"Gas\/solvent partial pressure data."
+  },
+  {
+    "prompt":"DIFFCOAL",
+    "response":"Gas diffusion data."
+  },
+  {
+    "prompt":"LANGMPL",
+    "response":"Pressure scaling factor for the adsorption capacity for each grid cell."
+  },
+  {
+    "prompt":"LANGMUIR",
+    "response":"Tables of coal surface gas concentration."
+  },
+  {
+    "prompt":"LANGSOLV",
+    "response":"Tables of coal solvent gas concentration."
+  },
+  {
+    "prompt":"MLANG",
+    "response":"Maximum surface gas concentration."
+  },
+  {
+    "prompt":"MLANGSLV",
+    "response":"Maximum solvent surface concentration."
+  },
+  {
+    "prompt":"ROCKPAMA",
+    "response":"Palmer-Mansoori rock model data."
+  },
+  {
+    "prompt":"TPAMEPS",
+    "response":"Specify strain term as a function of adsorbed gas concentration"
+  },
+  {
+    "prompt":"TPAMEPSS",
+    "response":"Specify strain term as a function of adsorbed solvent concentration"
+  },
+  {
+    "prompt":"DIFFCBM",
+    "response":"Diffusion coefficients."
+  },
+  {
+    "prompt":"LANGMEXT",
+    "response":"Extended Langmuir isotherm data for each component."
+  },
+  {
+    "prompt":"LANGMPL",
+    "response":"Pressure scaling factor for the adsorption capacity for each grid cell."
+  },
+  {
+    "prompt":"LANGMUIR",
+    "response":"Langmuir isotherm table data for each component."
+  },
+  {
+    "prompt":"LANGMULC",
+    "response":"Langmuir multipliers on a cell by cell basis for each component."
+  },
+  {
+    "prompt":"LANGMULT",
+    "response":"Langmuir multipliers on a cell by cell basis."
+  },
+  {
+    "prompt":"RESORB",
+    "response":"Re-adsorption factor."
+  },
+  {
+    "prompt":"ROCKPAMA",
+    "response":"Palmer-Mansoori rock model data."
+  },
+  {
+    "prompt":"ROCKPAME",
+    "response":"Composition dependent Palmer-Mansoori alike rock model data."
+  },
+  {
+    "prompt":"TPAMEPS",
+    "response":"Specify the strain term for each component versus gas concentration to be used by ROCKPAMA."
+  },
+  {
+    "prompt":"ACF",
+    "response":"Acentric factors. Required."
+  },
+  {
+    "prompt":"ACFS",
+    "response":"Acentric factors for surface EoS"
+  },
+  {
+    "prompt":"BIC",
+    "response":"Binary interaction coefficients for EoS."
+  },
+  {
+    "prompt":"BICS",
+    "response":"Binary interaction coefficients for surface EoS"
+  },
+  {
+    "prompt":"CALVAL \/ CALVALR",
+    "response":"Component calorific values and component calorific values for multiple equation of state regions."
+  },
+  {
+    "prompt":"CNAMES",
+    "response":"Component names."
+  },
+  {
+    "prompt":"DENSITY",
+    "response":"Stock tank fluid densities."
+  },
+  {
+    "prompt":"GRAVITY",
+    "response":"Stock tank fluid gravities."
+  },
+  {
+    "prompt":"DREF",
+    "response":"Reference densities (for Zudkevitch Joffe EoS)."
+  },
+  {
+    "prompt":"FACTLI",
+    "response":"Modifies the Li critical temperature correlation."
+  },
+  {
+    "prompt":"GREF",
+    "response":"Reference gravities (for Zudkevitch Joffe)."
+  },
+  {
+    "prompt":"LBCCOEF",
+    "response":"Set non-default LBC coefficients."
+  },
+  {
+    "prompt":"LBCCOEFR",
+    "response":"Set non-default LBC coefficients for multiple equation of state regions."
+  },
+  {
+    "prompt":"LILIM",
+    "response":"Specifies the range for Li-interpolation."
+  },
+  {
+    "prompt":"MW",
+    "response":"Molecular weights."
+  },
+  {
+    "prompt":"MWS",
+    "response":"Molecular weights for surface EoS."
+  },
+  {
+    "prompt":"NCOMPS",
+    "response":"Confirm number of components. Confirms the value of NCOMPS set in RUNSPEC."
+  },
+  {
+    "prompt":"OMEGAA",
+    "response":"Ωₐ₀ values for reservoir."
+  },
+  {
+    "prompt":"OMEGAAS",
+    "response":"Ωₐ values for surface EoS."
+  },
+  {
+    "prompt":"OMEGAB",
+    "response":"Ω_b₀ values for reservoir. Assumes default values if omitted."
+  },
+  {
+    "prompt":"OMEGABS",
+    "response":"Ω_b values for surface EoS."
+  },
+  {
+    "prompt":"PCRIT",
+    "response":"Critical pressures."
+  },
+  {
+    "prompt":"PCRITS",
+    "response":"Critical pressures for surface EoS."
+  },
+  {
+    "prompt":"PEDERSEN",
+    "response":"Allows use of Pedersen viscosity calculation."
+  },
+  {
+    "prompt":"PEDTUNE",
+    "response":"Provides a single set of multiplicative tuning parameters to modify the mixture molecular weight calculation used in the Pedersen et al. viscosity calculation."
+  },
+  {
+    "prompt":"ENSPCVD",
+    "response":"Variation of the scaled connate saturation, for Pc curves only, with depth."
+  },
+  {
+    "prompt":"IMKRVVD",
+    "response":"Variation of end point relative permeability values with depth for the imbibition curve"
+  },
+  {
+    "prompt":"IMPCVD",
+    "response":"Variation of maximum capillary pressure values with depth for the imbibition curve."
+  },
+  {
+    "prompt":"IMPTVD",
+    "response":"Variation of end point saturation values with depth for the imbibition curve."
+  },
+  {
+    "prompt":"IMSPCVD",
+    "response":"Variation of the scaled connate saturation, for Pc curves only, with depth for the imbibition curve."
+  },
+  {
+    "prompt":"IPCG, IPCW",
+    "response":"Imbibition curve end point capillary pressure values, equivalent to keywords PCG, PCW."
+  },
+  {
+    "prompt":"ISGLPC, ISWLPC",
+    "response":"Imbibition curve end point scaling data, equivalent to keywords SGLPC, SWLPC."
+  },
+  {
+    "prompt":"NOWARNEP",
+    "response":"Suppresses all warning messages resulting from end point consistency checks."
+  },
+  {
+    "prompt":"SCALELIM",
+    "response":"Sets saturation scaling limits for each end point scaling versus depth region."
+  },
+  {
+    "prompt":"SGLPC",
+    "response":"Connate gas saturation, for Pc curves only, for grid cells in the current input box"
+  },
+  {
+    "prompt":"SWLPC",
+    "response":"Connate water saturation, for Pc curves only, for grid cells in the current input box."
+  },
+  {
+    "prompt":"ADSORP",
+    "response":"Tracer adsorption functions (analytical)."
+  },
+  {
+    "prompt":"TRDCY",
+    "response":"Tracer decay functions."
+  },
+  {
+    "prompt":"TRDIF",
+    "response":"Tracer diffusion functions."
+  },
+  {
+    "prompt":"TRROCK",
+    "response":"Tracer rock properties."
+  },
+  {
+    "prompt":"FOAMFCN",
+    "response":"Gas mobility reduction dependence upon capillary number"
+  },
+  {
+    "prompt":"FOAMFRM",
+    "response":"Gas reference mobility reduction factor"
+  },
+  {
+    "prompt":"FOAMFSC",
+    "response":"Gas mobility reduction dependence upon surfactant concentration"
+  },
+  {
+    "prompt":"FOAMFSO",
+    "response":"Gas mobility reduction dependence upon oil saturation"
+  },
+  {
+    "prompt":"FOAMFST",
+    "response":"Gas-water surface tension dependence upon concentration"
+  },
+  {
+    "prompt":"FOAMFSW",
+    "response":"Gas mobility reduction dependence upon water saturation"
+  },
+  {
+    "prompt":"FOAMADS",
+    "response":"Foam adsorption functions"
+  },
+  {
+    "prompt":"FOAMDCYO",
+    "response":"Foam decay as a function of oil saturation"
+  },
+  {
+    "prompt":"FOAMDCYW",
+    "response":"Foam decay as a function of water saturation"
+  },
+  {
+    "prompt":"FOAMMOB",
+    "response":"Gas mobility reduction data"
+  },
+  {
+    "prompt":"FOAMMOBP",
+    "response":"Pressure dependence on foam mobility reduction"
+  },
+  {
+    "prompt":"FOAMMOBS",
+    "response":"Shear dependence on foam mobility reduction"
+  },
+  {
+    "prompt":"FOAMOPTS",
+    "response":"Specifies the Foam Model options."
+  },
+  {
+    "prompt":"FOAMROCK",
+    "response":"Specifies the foam rock properties."
+  },
+  {
+    "prompt":"BIOTCTAB",
+    "response":"Defines a multiplier for the Biot constant, this being a two-dimensional tabular function of maximum and minimum principal stress."
+  },
+  {
+    "prompt":"GEOYLDF",
+    "response":"Defines parameters for the plastic yield function in each geomechanics region."
+  },
+  {
+    "prompt":"PERMSTAB",
+    "response":"Defines a permeability multiplier, this being a two-dimensional tabular function of maximum and minimum principal stress. A table is entered for each geomechanics region."
+  },
+  {
+    "prompt":"SCDATABG",
+    "response":"Defines a scale damage table to be used together with the proppant flowback feature, keyword PROPFLOW."
+  },
+  {
+    "prompt":"HMMROCK",
+    "response":"Cumulative multipliers on rock compressibility."
+  },
+  {
+    "prompt":"HMMROCKT",
+    "response":"Cumulative modifiers of rock compaction parameters."
+  },
+  {
+    "prompt":"HMPROPS",
+    "response":"Section heading for end-point scaling modifiers."
+  },
+  {
+    "prompt":"HMROCK",
+    "response":"Calculate gradients with respect to rock compressibility multipliers."
+  },
+  {
+    "prompt":"HMROCKT",
+    "response":"Calculate gradients with respect to rock compaction parameters."
+  },
+  {
+    "prompt":"HMRREF",
+    "response":"Reference pressures for HMROCKT."
+  },
+  {
+    "prompt":"KVGEN",
+    "response":"Specify that K-values are to be generated internally."
+  },
+  {
+    "prompt":"KVTABLE",
+    "response":"Tables of K-values."
+  },
+  {
+    "prompt":"KVTABCn, KVMF, KVCOMP",
+    "response":"Composition dependent K-values."
+  },
+  {
+    "prompt":"ADSORP",
+    "response":"Polymer adsorption functions (analytical) with optional salinity dependence."
+  },
+  {
+    "prompt":"PLYMAX",
+    "response":"Polymer\/salt concentrations for mixing calculations."
+  },
+  {
+    "prompt":"PLYROCK",
+    "response":"Polymer-rock properties."
+  },
+  {
+    "prompt":"PLYSHEAR",
+    "response":"Polymer shear thinning\/thickening data."
+  },
+  {
+    "prompt":"PLYVISC",
+    "response":"Polymer solution viscosity function."
+  },
+  {
+    "prompt":"PLYVISCS",
+    "response":"Polymer\/salt solution viscosity function."
+  },
+  {
+    "prompt":"SALTNODE",
+    "response":"Salt concentration nodes for polymer solution viscosity."
+  },
+  {
+    "prompt":"ADSALNOD",
+    "response":"Salt concentration nodes for polymer solution adsorption"
+  },
+  {
+    "prompt":"PLYATEMP",
+    "response":"Polymer adsorption functions varying with temperature (tabulated)."
+  },
+  {
+    "prompt":"SOCRS",
+    "response":"Scaled critical oil-in-water saturations at miscible conditions."
+  },
+  {
+    "prompt":"SURFST",
+    "response":"Oil-water surface tension in the presence of surfactant."
+  },
+  {
+    "prompt":"SURFSTES",
+    "response":"Salinity dependent oil-water surface tension in the presence of surfactant."
+  },
+  {
+    "prompt":"ESSNODE",
+    "response":"Salt concentration nodes for oil-water surface tension."
+  },
+  {
+    "prompt":"SURFVIS",
+    "response":"Modified water viscosity."
+  },
+  {
+    "prompt":"SURFCAPD",
+    "response":"Capillary de-saturation data."
+  },
+  {
+    "prompt":"SURFADS",
+    "response":"Surfactant adsorption functions (tabulated)."
+  },
+  {
+    "prompt":"ADSORP",
+    "response":"Surfactant adsorption functions (analytical) with optional salinity dependence"
+  },
+  {
+    "prompt":"SURFADDW",
+    "response":"Tables of adsorbed surfactant mass versus fraction of oil-wet and water-wet curves, for calculating immiscible relative permeabilities."
+  },
+  {
+    "prompt":"SURFROCK",
+    "response":"Rock properties."
+  },
+  {
+    "prompt":"TRACKERP",
+    "response":"Partitioning function K(P) for partitioned tracers."
+  },
+  {
+    "prompt":"CVTYPE",
+    "response":"Define solid phase components"
+  },
+  {
+    "prompt":"CVTYPES",
+    "response":"Define solid phase components at surface conditions"
+  },
+  {
+    "prompt":"REACSMAX",
+    "response":"Reaction rate solid saturation limit"
+  },
+  {
+    "prompt":"REACSORD",
+    "response":"Reaction rate solid order"
+  },
+  {
+    "prompt":"SCREF",
+    "response":"Component solid phase compressibility"
+  },
+  {
+    "prompt":"SDREF",
+    "response":"Component solid phase reference density"
+  },
+  {
+    "prompt":"SOLIDADS",
+    "response":"Solid adsorption table"
+  },
+  {
+    "prompt":"SOLIDMMC",
+    "response":"Solid mobility multiplier (as a function of adsorbed solid concentration)"
+  },
+  {
+    "prompt":"SOLIDMMS",
+    "response":"Solid mobility multiplier (as a function of adsorbed solid saturation)"
+  },
+  {
+    "prompt":"SOLWTAB",
+    "response":"Defines an interpolation parameter as a function of adsorbed solid concentration."
+  },
+  {
+    "prompt":"SOLWW",
+    "response":"Defines a component weighting factor for calculating the wetting-solid concentration."
+  },
+  {
+    "prompt":"SPECHS",
+    "response":"Component solid specific heat, 1st coefficient"
+  },
+  {
+    "prompt":"SPECHT",
+    "response":"Component solid specific heat, 2nd coefficient"
+  },
+  {
+    "prompt":"SPREF",
+    "response":"Component solid phase reference pressure"
+  },
+  {
+    "prompt":"STREF",
+    "response":"Component solid phase reference temperature"
+  },
+  {
+    "prompt":"STHERMX1",
+    "response":"Component solid phase thermal expansion coefficient"
+  },
+  {
+    "prompt":"SURFST",
+    "response":"Oil-water surface tension in the presence of surfactant."
+  },
+  {
+    "prompt":"SURFSTES",
+    "response":"Salinity dependent oil-water surface tension in the presence of surfactant."
+  },
+  {
+    "prompt":"ESSNODE",
+    "response":"Salt concentration nodes for oil-water surface tension."
+  },
+  {
+    "prompt":"SALTEFF",
+    "response":"Effective salinity coefficients."
+  },
+  {
+    "prompt":"SURFCAPD",
+    "response":"Capillary de-saturation data."
+  },
+  {
+    "prompt":"SURFOPTS",
+    "response":"Surfactant options."
+  },
+  {
+    "prompt":"OILVISCT",
+    "response":"Inputs tables of oil viscosity versus temperature."
+  },
+  {
+    "prompt":"RTEMP",
+    "response":"Specify constant reservoir temperature."
+  },
+  {
+    "prompt":"RTEMPA",
+    "response":"Specify constant reservoir temperature."
+  },
+  {
+    "prompt":"SPECHEAT",
+    "response":"Inputs tables of fluid specific heat data."
+  },
+  {
+    "prompt":"SPECROCK",
+    "response":"Inputs tables of rock specific heat data."
+  },
+  {
+    "prompt":"TEMPTVD",
+    "response":"Requests the use of the flux limited transport scheme."
+  },
+  {
+    "prompt":"VISCOREF",
+    "response":"Sets reference conditions for viscosity versus temperature tables."
+  },
+  {
+    "prompt":"WATVISCT",
+    "response":"Inputs tables of water viscosity versus temperature."
+  },
+  {
+    "prompt":"TRACER",
+    "response":"Names and phases of passive tracers."
+  },
+  {
+    "prompt":"TRACITVD",
+    "response":"Requests implicit flux limiting scheme, to reduce numerical dispersion."
+  },
+  {
+    "prompt":"TRACTVD",
+    "response":"Requests explicit flux limiting scheme, to reduce numerical dispersion."
+  },
+  {
+    "prompt":"TRDIF",
+    "response":"Tracer diffusion functions."
+  },
+  {
+    "prompt":"TRDIS",
+    "response":"Tracer dispersion table numbers."
+  },
+  {
+    "prompt":"DISPERSE",
+    "response":"Tracer dispersion tables."
+  },
+  {
+    "prompt":"DIAGDISP",
+    "response":"Enables an alternate form of dispersion."
+  },
+  {
+    "prompt":"TRNHD",
+    "response":"Speeds up dispersion calculation for a tracer when the dispersion is only being used to model constant coefficient non-homogeneous diffusion"
+  },
+  {
+    "prompt":"AMFVD",
+    "response":"Aqueous mole fractions versus depth"
+  },
+  {
+    "prompt":"CREF",
+    "response":"Component compressibilities"
+  },
+  {
+    "prompt":"CCTYPE",
+    "response":"Component liquid compressibility type"
+  },
+  {
+    "prompt":"CCTYPES",
+    "response":"Component liquid compressibility type at surface conditions"
+  },
+  {
+    "prompt":"CGDTYPE",
+    "response":"Component gas (EoS) density model"
+  },
+  {
+    "prompt":"CGVTYPE",
+    "response":"Component gas (EoS LBC) viscosity model"
+  },
+  {
+    "prompt":"CODTYPE",
+    "response":"Component oil (EoS) density model"
+  },
+  {
+    "prompt":"COVTYPE",
+    "response":"Component oil (EoS LBC) viscosity model"
+  },
+  {
+    "prompt":"CVTYPE",
+    "response":"Component volatility (dead, live, gaseous)"
+  },
+  {
+    "prompt":"CVTYPES",
+    "response":"Component volatility (dead, live, gaseous) at surface conditions"
+  },
+  {
+    "prompt":"DREF",
+    "response":"Fluid densities at the reference pressures and temperatures."
+  },
+  {
+    "prompt":"DREFS",
+    "response":"Reference densities for use in the surface calculations"
+  },
+  {
+    "prompt":"DREFT",
+    "response":"alias for DREF"
+  },
+  {
+    "prompt":"DREFTS",
+    "response":"alias for DREFS"
+  },
+  {
+    "prompt":"ENKRVT",
+    "response":"Endpoint relative permeabilities versus temperature"
+  },
+  {
+    "prompt":"ENPCVT",
+    "response":"Endpoint capillary pressures versus temperature"
+  },
+  {
+    "prompt":"ENPTVT",
+    "response":"Endpoint saturations versus temperature"
+  },
+  {
+    "prompt":"GASVISCF",
+    "response":"Gas viscosity function of temperature"
+  },
+  {
+    "prompt":"GASVISCT",
+    "response":"Gas viscosity table as a function of temperature"
+  },
+  {
+    "prompt":"HEATVAP",
+    "response":"Component heat of vaporization at standard temperature"
+  },
+  {
+    "prompt":"HEATVAPE",
+    "response":"Component heat of vaporization"
+  },
+  {
+    "prompt":"HEATVAPS",
+    "response":"Heat of vaporization exponent"
+  },
+  {
+    "prompt":"KVCR",
+    "response":"K-value correlation parameters"
+  },
+  {
+    "prompt":"KVCRS",
+    "response":"K-value correlation parameters at surface conditions"
+  },
+  {
+    "prompt":"KVGEN",
+    "response":"K-values generated from an EoS."
+  },
+  {
+    "prompt":"KVCRWAT",
+    "response":"Water K-value correlation parameters"
+  },
+  {
+    "prompt":"KVTABTn",
+    "response":"Tables of K-values"
+  },
+  {
+    "prompt":"KVTEMP",
+    "response":"Temperatures for K-value tables"
+  },
+  {
+    "prompt":"KWTABTn",
+    "response":"Tables of aqua Kw-values"
+  },
+  {
+    "prompt":"KWTEMP",
+    "response":"Temperatures for Kw-value tables"
+  },
+  {
+    "prompt":"KVWI",
+    "response":"Wilson K-value correlation parameters"
+  },
+  {
+    "prompt":"OILCOMPR",
+    "response":"Oil compressibility, expansion coefficient"
+  },
+  {
+    "prompt":"OILMW",
+    "response":"Oil molecular weight"
+  },
+  {
+    "prompt":"OILSPECH",
+    "response":"Oil specific heat"
+  },
+  {
+    "prompt":"OILVINDX",
+    "response":"Oil viscosity index"
+  },
+  {
+    "prompt":"OILVISCC",
+    "response":"Oil viscosity-temperature correlations"
+  },
+  {
+    "prompt":"OILVISCF",
+    "response":"Oil viscosity function"
+  },
+  {
+    "prompt":"OILVISCT",
+    "response":"Oil viscosity table as a function of T"
+  },
+  {
+    "prompt":"OILVTIM",
+    "response":"Interpolation method for OILVISCT data"
+  },
+  {
+    "prompt":"PREF",
+    "response":"Component reference pressures"
+  },
+  {
+    "prompt":"PREFS",
+    "response":"Component reference pressures for surface EoS"
+  },
+  {
+    "prompt":"PREFT",
+    "response":"Alias for PREF"
+  },
+  {
+    "prompt":"PREFTS",
+    "response":"Alias for PREFS"
+  },
+  {
+    "prompt":"REACENTH",
+    "response":"Reaction molar enthalpy"
+  },
+  {
+    "prompt":"SPECHA",
+    "response":"Component oil specific heat, 1st coefficient"
+  },
+  {
+    "prompt":"SPECHB",
+    "response":"Component oil specific heat, 2nd coefficient"
+  },
+  {
+    "prompt":"SPECHG",
+    "response":"Component gas specific heat, 1st coefficient"
+  },
+  {
+    "prompt":"SPECHH",
+    "response":"Component gas specific heat, 2nd coefficient"
+  },
+  {
+    "prompt":"SPECHS",
+    "response":"Component solid specific heat, 1st coefficient Solid option"
+  },
+  {
+    "prompt":"SPECHT",
+    "response":"Component solid specific heat, 2nd coefficient Solid option"
+  },
+  {
+    "prompt":"SPECHW1",
+    "response":"Component aqua specific heat, 1st coefficient"
+  },
+  {
+    "prompt":"SPECHW2",
+    "response":"Component aqua specific heat, 2nd coefficient"
+  },
+  {
+    "prompt":"THANALB",
+    "response":"Analytic water and steam densities"
+  },
+  {
+    "prompt":"THANALH",
+    "response":"Analytic water and steam enthalpy values"
+  },
+  {
+    "prompt":"THERMEX1",
+    "response":"Analytic oil viscosities"
+  },
+  {
+    "prompt":"THANALV",
+    "response":"Component thermal expansion coefficient"
+  },
+  {
+    "prompt":"THSVC",
+    "response":"Steam viscosity coefficients"
+  },
+  {
+    "prompt":"THTABB",
+    "response":"Tabular water and steam densities"
+  },
+  {
+    "prompt":"THWVC",
+    "response":"Water viscosity coefficients"
+  },
+  {
+    "prompt":"TRANGE",
+    "response":"Expected temperature limits"
+  },
+  {
+    "prompt":"TREF",
+    "response":"Reference temperatures for fluid densities"
+  },
+  {
+    "prompt":"TREFS",
+    "response":"Reference temperatures for use in the surface calculations"
+  },
+  {
+    "prompt":"TREFT",
+    "response":"alias for TREF"
+  },
+  {
+    "prompt":"TREFTS",
+    "response":"alias for TREFS"
+  },
+  {
+    "prompt":"VISCOREF",
+    "response":"Reference conditions for the viscosity\/temperature tables"
+  },
+  {
+    "prompt":"WATDENT",
+    "response":"Water density temperature dependence"
+  },
+  {
+    "prompt":"WATVISCT",
+    "response":"Inputs tables of water viscosity versus temperature."
+  },
+  {
+    "prompt":"ZFACT1",
+    "response":"Z-factor first coefficient"
+  },
+  {
+    "prompt":"ZFACT1S",
+    "response":"Surface Z-factor first coefficient"
+  },
+  {
+    "prompt":"ZFACTOR",
+    "response":"Z-factors zeroth coefficient"
+  },
+  {
+    "prompt":"ZFACTORS",
+    "response":"Surface Z-factor zeroth coefficient"
+  },
+  {
+    "prompt":"EPSODD3P",
+    "response":"End-point scaling, reference surface tensions and threshold interfacial tensions"
+  },
+  {
+    "prompt":"HSGRO",
+    "response":"Hysteresis end-point (residual) grid-block gas saturations for a gas-oil system"
+  },
+  {
+    "prompt":"HSGRW",
+    "response":"Hysteresis end-point (residual) grid-block gas saturations for a gas-water system"
+  },
+  {
+    "prompt":"HSORG",
+    "response":"Hysteresis end-point (residual) grid-block oil saturations for an oil-gas system"
+  },
+  {
+    "prompt":"HSORW",
+    "response":"Hysteresis end-point (residual) grid-block oil saturations for an oil-water system"
+  },
+  {
+    "prompt":"HSWRG",
+    "response":"Hysteresis end-point (residual) grid-block water saturations for a water-gas system"
+  },
+  {
+    "prompt":"HSWRO",
+    "response":"Hysteresis end-point (residual) grid-block water saturations for a water-oil system"
+  },
+  {
+    "prompt":"ODD3P",
+    "response":"Select the ODD3P three-phase relative permeability and capillary pressure model"
+  },
+  {
+    "prompt":"OPTODD3P",
+    "response":"Provides backwards compatibility and saturation switching options for the ODD3P three-phase relative permeability and capillary pressure hysteresis model"
+  },
+  {
+    "prompt":"PCODD3P",
+    "response":"Capillary pressure calculation control"
+  },
+  {
+    "prompt":"PCODD3PG",
+    "response":"Capillary pressure gas saturation function"
+  },
+  {
+    "prompt":"PCODD3PW",
+    "response":"Capillary pressure water saturation function"
+  },
+  {
+    "prompt":"PSGRO",
+    "response":"Primary end-point (residual) grid-block gas saturations for a gas-oil system"
+  },
+  {
+    "prompt":"PSGRW",
+    "response":"Primary end-point (residual) grid-block gas saturations for a gas-water system"
+  },
+  {
+    "prompt":"PSORG",
+    "response":"Primary end-point (residual) grid-block oil saturations for an oil-gas system"
+  },
+  {
+    "prompt":"PSORW",
+    "response":"Primary end-point (residual) grid-block oil saturations for an oil-water system"
+  },
+  {
+    "prompt":"PSWRG",
+    "response":"Primary end-point (residual) grid-block water saturations for a water-gas system"
+  },
+  {
+    "prompt":"PSWRO",
+    "response":"Primary end-point (residual) grid-block water saturations for a water-oil system"
+  },
+  {
+    "prompt":"ADD",
+    "response":"Adds specified constants to specified arrays in the current input box."
+  },
+  {
+    "prompt":"ADDREG",
+    "response":"Add by MULTNUM, FLUXNUM or OPERNUM region."
+  },
+  {
+    "prompt":"BOX",
+    "response":"Redefines the current input box."
+  },
+  {
+    "prompt":"COPY",
+    "response":"Copies data in the current box from one specified array to another."
+  },
+  {
+    "prompt":"COPYBOX",
+    "response":"Copies data from one box of cells to another box of the same size."
+  },
+  {
+    "prompt":"COPYREG",
+    "response":"Copy by FLUXNUM, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"ENDBOX",
+    "response":"Redefines the current input box to encompass the whole grid."
+  },
+  {
+    "prompt":"ENDFIN",
+    "response":"End input for local grid refinement."
+  },
+  {
+    "prompt":"EQUALREG",
+    "response":"Set by FLUXNUM, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"EQUALS",
+    "response":"Sets specified arrays to specified constants within the current box."
+  },
+  {
+    "prompt":"IMPORT",
+    "response":"Imports binary data generated by a grid pre-processor."
+  },
+  {
+    "prompt":"MAXVALUE",
+    "response":"Applies a maximum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MINVALUE",
+    "response":"Applies a minimum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MULTIPLY",
+    "response":"Multiplies specified arrays by specified constants within the current box."
+  },
+  {
+    "prompt":"MULTIREG",
+    "response":"Multiply by FLUXNUM, MULTNUM or OPERNUM region."
+  },
+  {
+    "prompt":"OPERATE",
+    "response":"Performs arithmetic operations on arrays."
+  },
+  {
+    "prompt":"OPERATER",
+    "response":"Performs arithmetic operations on arrays for a specific region of the grid (defined using the OPERNUM keyword in the GRID section)."
+  },
+  {
+    "prompt":"REFINE",
+    "response":"Initiates data for a named local grid."
+  },
+  {
+    "prompt":"ACTCO2S",
+    "response":"Activity coefficient model for CO₂. CO2STORE only"
+  },
+  {
+    "prompt":"AQUTAB",
+    "response":"Carter-Tracy aquifer influence functions."
+  },
+  {
+    "prompt":"DENSITY",
+    "response":"Stock tank fluid densities."
+  },
+  {
+    "prompt":"ENKRVD",
+    "response":"Variation of end point relative permeability values with depth."
+  },
+  {
+    "prompt":"ENPCVD",
+    "response":"Variation of maximum capillary pressure values with depth."
+  },
+  {
+    "prompt":"ENPTVD",
+    "response":"Variation of saturation table end points with depth."
+  },
+  {
+    "prompt":"EPSDBGS",
+    "response":"Outputs scaled relative permeability curves to the Debug file for multiple sets of grid block."
+  },
+  {
+    "prompt":"EPSDEBUG",
+    "response":"Outputs scaled relative permeability curves to the Debug file."
+  },
+  {
+    "prompt":"EQLDKVCR",
+    "response":"K-values for equilibrium deviation reactions."
+  },
+  {
+    "prompt":"EQLDREAC",
+    "response":"Equilibrium deviation reaction rates."
+  },
+  {
+    "prompt":"ESSNODE",
+    "response":"Effective salinity nodes for salt sensitive surfactant flood studies."
+  },
+  {
+    "prompt":"FILEUNIT",
+    "response":"Confirms the units of the data set."
+  },
+  {
+    "prompt":"GRAVCONS",
+    "response":"Sets a user-defined gravity constant."
+  },
+  {
+    "prompt":"GRAVITY",
+    "response":"Stock tank fluid gravities."
+  },
+  {
+    "prompt":"IKRG",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"IKRGR",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"IKRW",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"IKRWR",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"IKRO",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"IKRORG",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"IKRORW",
+    "response":"Imbibition curve end point relative permeability values, equivalent to KRG for example."
+  },
+  {
+    "prompt":"KRG",
+    "response":"Scales gas relative permeability values at maximum gas saturation, for cells in the current input box."
+  },
+  {
+    "prompt":"KRGR",
+    "response":"Scales gas relative permeability values at residual oil saturation, for cells in the current input box."
+  },
+  {
+    "prompt":"KRO",
+    "response":"Scales oil relative permeability values at maximum oil saturation, for cells in the current input box."
+  },
+  {
+    "prompt":"KROGRG",
+    "response":"Scales oil relative permeability values at critical gas saturation, for cells in the current input box."
+  },
+  {
+    "prompt":"KRORW",
+    "response":"Scales oil relative permeability values at critical water saturation, for cells in the KRW Scales water relative permeability values at maximum water saturation, for cells in the current input box. KRWR Scales water relative permeability values at residual oil saturation, for cells in the"
+  },
+  {
+    "prompt":"LCUNIT",
+    "response":"Set units for linear combination of phases."
+  },
+  {
+    "prompt":"MAXVALUE",
+    "response":"Applies a maximum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MINVALUE",
+    "response":"‘Applies a minimum value to specified arrays within the current box."
+  },
+  {
+    "prompt":"MULTIPLY",
+    "response":"Multiplies specified arrays by constant values in the current box."
+  },
+  {
+    "prompt":"MULTIREG",
+    "response":"Multiply by MULTNUM, FLUXNUM or OPERNUM region."
+  },
+  {
+    "prompt":"OILVISCT",
+    "response":"Tables of oil viscosity versus temperature."
+  },
+  {
+    "prompt":"OILVTIM",
+    "response":"Interpolation method for OILVISCT data."
+  },
+  {
+    "prompt":"OPERATE",
+    "response":"Performs arithmetic operations on arrays."
+  },
+  {
+    "prompt":"OPERATER",
+    "response":"Performs arithmetic operations on arrays for a specific region of the grid (defined"
+  },
+  {
+    "prompt":"using",
+    "response":"the OPERNUM keyword in the GRID section)."
+  },
+  {
+    "prompt":"OVERBURD",
+    "response":"Overburden pressure tables."
+  },
+  {
+    "prompt":"PCRITS",
+    "response":"Critical pressures for surface EoS. PCW Scales the maximum water capillary pressure, for cells in the current input box."
+  },
+  {
+    "prompt":"PLYVISC",
+    "response":"Polymer solution viscosity function."
+  },
+  {
+    "prompt":"PLYVISCS",
+    "response":"Polymer\/salt solution viscosity function. PMAX Maximum pressure expected in the simulation."
+  },
+  {
+    "prompt":"PPCWMAX",
+    "response":"Limits the calculated PCW values when the SWAT INIT option is used. PVCO FVF and viscosity of live oil as functions of bubble point pressure. PVDO FVF and viscosity of dead oil as functions of pressure. PVIW FVF, compressibility and viscosity of water. PVZG Z-factor and viscosity of dry gas as functions of pressure."
+  },
+  {
+    "prompt":"REFINE",
+    "response":"Specify data for local grid refinement."
+  },
+  {
+    "prompt":"RKTRMDIR",
+    "response":"Allows directional transmissibility multipliers to be defined in ROCKTAS tables."
+  },
+  {
+    "prompt":"ROCK2D",
+    "response":"Two-dimensional water induced rock compaction tables."
+  },
+  {
+    "prompt":"ROCKOPTS",
+    "response":"Controls options associated with the rock compaction facilities."
+  },
+  {
+    "prompt":"RPTPROPS",
+    "response":"Report levels for PROPS data."
+  },
+  {
+    "prompt":"RTEMP",
+    "response":"Specifies a constant reservoir temperature."
+  },
+  {
+    "prompt":"SCALECRS",
+    "response":"Requests alternative end point scaling method. SGCR Critical gas saturation for grid cells in the current input box."
+  },
+  {
+    "prompt":"SGF32D",
+    "response":"Gas relative permeability (for three-phase flows) as a 2D table. SGEN Gas relative permeability and capillary pressure as functions of Sg."
+  },
+  {
+    "prompt":"SGL",
+    "response":"Connate gas saturation for grid cells in the current input box. SGOF Gas relative permeability and cap pressure, and oil relative permeability in gas,"
+  },
+  {
+    "prompt":"SLGOF",
+    "response":"Gas relative permeability and cap pressure, and oil relative permeability in gas,"
+  },
+  {
+    "prompt":"SOF32D",
+    "response":"Oil relative permeability as a 2D function of S,, and S, in three phase systems."
+  },
+  {
+    "prompt":"SOMGAS",
+    "response":"Minimum oil saturation for STONE1 method, as a function of the gas saturation."
+  },
+  {
+    "prompt":"SOMWAT",
+    "response":"Minimum oil saturation for STONE1 method, as a function of the water saturation."
+  },
+  {
+    "prompt":"SOWCR",
+    "response":"Residual oil-in-water saturation for cells in the current box."
+  },
+  {
+    "prompt":"STONE",
+    "response":"Stone’s formula for three phase oil relative permeability."
+  },
+  {
+    "prompt":"STONEL",
+    "response":"Stone’s formula 1 for three phase oil relative permeability."
+  },
+  {
+    "prompt":"STONELEX",
+    "response":"Exponent applied to saturation terms in Stone’s formula 1 for three phase oil relative"
+  },
+  {
+    "prompt":"STONE2",
+    "response":"Stone’s formula 2 for three phase oil relative permeability."
+  },
+  {
+    "prompt":"SURFST",
+    "response":"Oil-water surface tension in the presence of surfactant."
+  },
+  {
+    "prompt":"SURFCAPD",
+    "response":"Capillary de-saturation data."
+  },
+  {
+    "prompt":"SWATINIT",
+    "response":"Initial water saturation, for cells in the current input box, to scale the water Pe"
+  },
+  {
+    "prompt":"SWF32D",
+    "response":"Water relative permeability (for three-phase flows) as 2-D table. SWEN Water relative permeability and capillary pressure as functions of S.. SwWL Connate water saturation for grid cells in the current input box. SWOF Water relative permeability and cap pressure, and oil relative permeability in water,"
+  },
+  {
+    "prompt":"TOLCRIT",
+    "response":"Controls the method of determining the table critical saturations in pathological end"
+  },
+  {
+    "prompt":"TPAMEPS",
+    "response":"Volumetric strain values in ROCKPAMA."
+  },
+  {
+    "prompt":"TRACER",
+    "response":"‘Names and phases of passive tracers."
+  },
+  {
+    "prompt":"TZONE",
+    "response":"Controls the variation of critical end-point with depth."
+  },
+  {
+    "prompt":"VISCREF",
+    "response":"Reference conditions for viscosity versus temperature tables."
+  },
+  {
+    "prompt":"WATVISCT",
+    "response":"Tables of water viscosity versus temperature."
+  },
+  {
+    "prompt":"ADSORP",
+    "response":"Analytical adsorption functions."
+  },
+  {
+    "prompt":"ALKADS",
+    "response":"Alkaline adsorption functions."
+  },
+  {
+    "prompt":"ALKROCK",
+    "response":"Alkaline-rock properties."
+  },
+  {
+    "prompt":"ALPHAT",
+    "response":"Transport coefficient tables for imbibition processes."
+  },
+  {
+    "prompt":"ALPOLADS",
+    "response":"Polymer adsorption multipliers as a function of alkaline concentration."
+  },
+  {
+    "prompt":"ALSURFAD",
+    "response":"Surfactant adsorption multipliers as a function of alkaline concentration."
+  },
+  {
+    "prompt":"ALSURFST",
+    "response":"Oil\/water surface tension multipliers as a function of alkaline concentration."
+  },
+  {
+    "prompt":"APIGROUP",
+    "response":"Allows different groups of oil PVT tables to be used in different PVTNUM regions when using API Tracking. BGGI Variation of saturated gas FVF with pressure and Gi. BOGI Variation of saturated oil FVF with pressure and Gi."
+  },
+  {
+    "prompt":"DEPTHTAB",
+    "response":"Depth data for boundary conditions."
+  },
+  {
+    "prompt":"DIFEC",
+    "response":"Molecular diffusion coefficients for each PVT region."
+  },
+  {
+    "prompt":"DIFFDP",
+    "response":"Restricts the molecular diffusion calculation to just the matrix-fracture flows in dual"
+  },
+  {
+    "prompt":"porosity",
+    "response":"runs."
+  },
+  {
+    "prompt":"DPKRMOD",
+    "response":"Modifies the oil relative permeability in dual porosity runs."
+  },
+  {
+    "prompt":"EHYSTR",
+    "response":"Curvature parameters and model selection for hysteresis."
+  },
+  {
+    "prompt":"EHYSTRR",
+    "response":"Hysteresis parameters by region."
+  },
+  {
+    "prompt":"ENSPCVDV",
+    "response":"Variation of the scaled connate saturation, for P, curves only, with depth."
+  },
+  {
+    "prompt":"FILLEPS",
+    "response":"Controls the output of end point data in the INIT file."
+  },
+  {
+    "prompt":"FOAMADS",
+    "response":"Foam adsorption functions."
+  },
+  {
+    "prompt":"FOAMFCN",
+    "response":"Gas mobility reduction dependence upon capillary number (functional model)."
+  },
+  {
+    "prompt":"FOAMDCYO",
+    "response":"Foam decay as a function of oil saturation (tabular model)."
+  },
+  {
+    "prompt":"FOAMDCYW",
+    "response":"Foam decay as a function of water saturation (tabular model)."
+  },
+  {
+    "prompt":"FOAMMOB",
+    "response":"Gas mobility reduction data (tabular model)."
+  },
+  {
+    "prompt":"FOAMMOBE",
+    "response":"Pressure dependence on foam mobility reduction (tabular model)."
+  },
+  {
+    "prompt":"FOAMMOBS",
+    "response":"Shear dependence on foam mobility reduction (tabular model)."
+  },
+  {
+    "prompt":"FOAMOPTS",
+    "response":"Specifies the Foam Model options."
+  },
+  {
+    "prompt":"FOAMROCK",
+    "response":"Specifies the foam rock properties."
+  },
+  {
+    "prompt":"GIALL",
+    "response":"Variation of saturated properties with pressure and Gi."
+  },
+  {
+    "prompt":"GINODE",
+    "response":"Gi nodal values."
+  },
+  {
+    "prompt":"HMMROCK",
+    "response":"Cumulative multipliers on rock compressibility."
+  },
+  {
+    "prompt":"HMMROCKT",
+    "response":"Cumulative modifiers of rock compaction parameters."
+  },
+  {
+    "prompt":"HMPROPS",
+    "response":"Section heading for end-point modifiers."
+  }
+]
